@@ -292,6 +292,7 @@ Several providers operate like a dropbox. Old-school ftp servers mimic local fil
 - Millions of articles cross referenced to other Articles
 - Extensive footnotes to print and on-line resources
 - Multiple languages
+- No ads
 - More effective than an open search of the Internet
 
 ### Quora
@@ -316,6 +317,7 @@ Several providers operate like a dropbox. Old-school ftp servers mimic local fil
 - https://en.wikipedia.com
 - Millions of searchable articles cross referenced to other articles
 - Extensive footnotes to print and on-line resources
+- No ads
 - Multiple languages
 
 ### NOLO Press
