@@ -1,5 +1,12 @@
 # Operational Security
 
+[top](#operational-security) 
+| [dev](#devices) 
+| [priv](#privacy) 
+| [serv](#services) 
+| [search](#search) 
+| [guide](#guides) 
+
 Day-to-day use of modern interconnected devices reveal more about an individual than may be understood. Collecting, editing, and publishing operational security information will reduce the need to search for a needle in a haystack, and will provide a first step in minimizing unintentional information sharing. 
 
 - Overview
@@ -32,6 +39,13 @@ Compounding the problem, service providers are lightly regulated with respect to
 
 ## Devices
 
+[top](#operational-security) 
+| [dev](#devices) 
+| [priv](#privacy) 
+| [serv](#services) 
+| [search](#search) 
+| [guide](#guides) 
+
 Devices are pervasive. 
 
 Device owners voluntarily and freely give away personal information, visual evidence, and day-to-day location information. Some information leakage may be intentional. Often awareness of how much personal information is out there is only realized after a data breach is announced by an otherwise trusted service provider.
@@ -53,6 +67,13 @@ This is what needs to be done to reduce expose:
 - Learn where app files are stored, delete ‘cache’ files
 
 ## Privacy
+
+[top](#operational-security) 
+| [dev](#devices) 
+| [priv](#privacy) 
+| [serv](#services) 
+| [search](#search) 
+| [guide](#guides) 
 
 Privacy protection is a habit, an often repeated “To do...” list.
 
@@ -97,7 +118,14 @@ An anonymous browser with built-in VPN
 - Performance is not as good as a direct connection vs VPN
 - Tor Browser does not have a method for the user to select a country
 
-## Apps
+## Services
+
+[top](#operational-security) 
+| [dev](#devices) 
+| [priv](#privacy) 
+| [serv](#services) 
+| [search](#search) 
+| [guide](#guides) 
 
 There are millions of apps.
 
@@ -232,6 +260,13 @@ Several providers operate like a dropbox. Old-school ftp servers mimic local fil
 
 ## Search
 
+[top](#operational-security) 
+| [dev](#devices) 
+| [priv](#privacy) 
+| [serv](#services) 
+| [search](#search) 
+| [guide](#guides) 
+
 ### DuckDuckGo
 
 - https://www.duckduckgo.com
@@ -266,6 +301,13 @@ Several providers operate like a dropbox. Old-school ftp servers mimic local fil
 - Related questions listed
 
 ## Guides
+
+[top](#operational-security) 
+| [dev](#devices) 
+| [priv](#privacy) 
+| [serv](#services) 
+| [search](#search) 
+| [guide](#guides) 
 
 ### Wikipedia
 
