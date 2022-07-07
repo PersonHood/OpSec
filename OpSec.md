@@ -214,6 +214,7 @@ Several providers operate like a dropbox. Old-school ftp servers mimic local fil
 - Supports the ‘Markdown’ text formatting syntax, and HTML
 - Any file type may be uploaded
 - Permanent links per file, per repository (project), and per user
+- Avoid uploading files over Tor. Copy/Paste text into text boxes.
 
 ### Pastebin
 - https://pastebin.com
@@ -223,6 +224,7 @@ Several providers operate like a dropbox. Old-school ftp servers mimic local fil
 - No login. The home page displays an input box and ‘Paste’ button
 - System generated permanent links per file
 - Permanent link per registered user
+- Avoid uploading files over Tor. Copy/Paste text into text boxes.
 
 ## Groups
 
