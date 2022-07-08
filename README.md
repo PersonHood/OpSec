@@ -1,8 +1,15 @@
 # OpSec
-A single document pertaining to 
-Operation Security and Devices 
-covering the following topics:
 
+Day-to-day use of modern interconnected 
+devices reveal more about an individual 
+than may be understood. 
+
+Collecting, editing, and publishing 
+operational security information will 
+reduce the need to search for a needle 
+in a haystack, and will provide a first 
+step in minimizing unintentional 
+information sharing.
 
 ## Overview
 
@@ -13,6 +20,7 @@ covering the following topics:
 
 ## Privacy
 
+   - Best Practices
    - Tor Orbot VPN
    - Tor Browser
 
