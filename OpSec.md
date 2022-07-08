@@ -137,7 +137,7 @@ An anonymous browser and VPN
 | [search](#search) 
 | [guide](#guides) 
 
-There are millions of apps.
+There are millions of services & apps.
 
  [voip](#voip)
  | [e-mail](#e-mail)
@@ -150,11 +150,23 @@ This list includes anonymous free alternative services (non-app) and apps. The �
 
 ### VOIP
 
+[serv](#services) 
+| [voip](#voip)
+| [e-mail](#e-mail)
+| [groups](#groups)
+| [files](#files)
+
 Google Voice offers a free phone number supporting voice calls and texts over the Internet.
 
 Unfortunately, the number is associated with the device’s phone number. Getting a burner SIM for the device lessens exposure but increases hassle and cost. Getting a separate burner phone reduces hassle but increases cost. Using a SIM-less burner phone reduces cost, and hassle, but eliminates non-VOIP voice calling and texting and entails WiFi dependency.
 
 ### E-Mail
+
+[serv](#services) 
+| [voip](#voip)
+| [e-mail](#e-mail)
+| [groups](#groups)
+| [files](#files)
 
 There are four types of anonymous e-mail:
 
@@ -212,20 +224,67 @@ Advanced users may combine two or more services: double-forwarding e-mails or �
    - public e-mail account, drop-box
    - no login
 
-## Files
+### Groups
 
-[top](#opsec) 
-| [dev](#devices) 
-| [priv](#privacy) 
-| [serv](#services) 
-| [search](#search) 
-| [guide](#guides) 
+[serv](#services) 
+| [voip](#voip)
+| [e-mail](#e-mail)
+| [groups](#groups)
+| [files](#files)
+
+Groups, communities, and forums.
+
+#### Reddit
+
+- https://www.reddit.com/login
+- https://www.reddit.com/u/username
+     - `username@hotmail.com`
+     - Has an App
+- One of the oldest discussion groups, mostly for text postings
+- Permanent links to categories (r/Topic) and users (u/username)
+- Thousands of topics, communities
+- No login to read, login to post
+
+#### Tumblr
+
+- https://tumblr.com/login
+- https://username.tumblr.com/   
+   - `username@hotmail.com`
+   - Has an App
+- Similar to Pinterest with text and image postings
+- No login to read, login to post
+
+#### Pinterest
+
+- https://www.pinterest.com/login/
+- https://www.pinterest.com/username
+   - `username@hotmail.com`
+   - Has an App
+- Users create ‘Boards’ (topics) and post images and text
+
+#### Twitter
+
+- https://twitter.com/i/flow/login
+- https://twitter.com/username
+   - phone number required
+   - Google Voice accepted
+   - Has an App
+
+### Files
+
+[serv](#services) 
+| [voip](#voip)
+| [e-mail](#e-mail)
+| [groups](#groups)
+| [files](#files)
+
+Attachments, drop-boxes, and directories 
 
 Sharing files anonymously may occur directly or indirectly. Some web-mail services allow attachments. Some forums and discussion groups support posting images and videos.
 
 Several providers operate like a drop-box. Old-school ftp servers mimic local file systems, supporting anonymous logins.
 
-### Github
+#### Github
 
 - https://github.com/
 - https://github.com/username/
@@ -238,7 +297,7 @@ Several providers operate like a drop-box. Old-school ftp servers mimic local fi
 - Permanent links per file, per repository (project), and per user
 - Avoid uploading files over Tor. Copy/Paste text into text boxes.
 
-### Pastebin
+#### Pastebin
 
 - https://pastebin.com
 - https://pastebin.com/u/username
@@ -248,51 +307,6 @@ Several providers operate like a drop-box. Old-school ftp servers mimic local fi
 - System generated permanent links per file
 - Permanent link per registered user
 - Avoid uploading files over Tor. Copy/Paste text into text boxes.
-
-## Groups
-
-[top](#opsec) 
-| [dev](#devices) 
-| [priv](#privacy) 
-| [serv](#services) 
-| [search](#search) 
-| [guide](#guides) 
-
-### Reddit
-
-- https://www.reddit.com/login
-- https://www.reddit.com/u/username
-     - `username@hotmail.com`
-     - Has an App
-- One of the oldest discussion groups, mostly for text postings
-- Permanent links to categories (r/Topic) and users (u/username)
-- Thousands of topics, communities
-- No login to read, login to post
-
-### Tumblr
-
-- https://tumblr.com/login
-- https://username.tumblr.com/   
-   - `username@hotmail.com`
-   - Has an App
-- Similar to Pinterest with text and image postings
-- No login to read, login to post
-
-### Pinterest
-
-- https://www.pinterest.com/login/
-- https://www.pinterest.com/username
-   - `username@hotmail.com`
-   - Has an App
-- Users create ‘Boards’ (topics) and post images and text
-
-### Twitter
-
-- https://twitter.com/i/flow/login
-- https://twitter.com/username
-   - phone number required
-   - Google Voice accepted
-   - Has an App
 
 ## Search
 
