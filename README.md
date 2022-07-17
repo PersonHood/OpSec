@@ -4,43 +4,38 @@ Day-to-day use of modern interconnected
 devices reveal more about an individual 
 than may be understood. 
 
-Collecting, editing, and publishing 
-operational security information will 
+This collection of operational security information will 
 reduce the need to search for a needle 
 in a haystack, and will provide a first 
 step in minimizing unintentional 
 information sharing.
 
-## Overview
-
-## Devices
-
-   - To do
+- OpSec
+   - Contents
+   - Intro
+- Overview
+- Devices
+   - Disposal
    - Advanced
-
-## Privacy
-
+- Privacy
    - Best Practices
-   - Tor Orbot VPN
+- Services
    - Tor Browser
-
-## Services
-
-   - VOIP
-   - E-mail 
-   - Groups
+   - Tor Orbot
+   - Core Apps
+   - Messaging
    - Files
-
-## Search
-
+   - Social
+   - E-mail
+   - Images
+   - Database
+   - GIS
+- Search
    - DuckDuckGo
    - Google
    - Wikipedia
    - Quora
-
-## Guides
-
+- Guides
    - Wikipedia
    - NOLO Legal Press
    - NIH Med Line Plus
-
