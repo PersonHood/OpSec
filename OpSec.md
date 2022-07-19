@@ -2,6 +2,8 @@
 
 >[top](#opsec) | [dev](#devices) | [priv](#privacy) | [svc](#services) | [apps](#local-apps) | [search](#search) | [guide](#guides)
 
+Operational Security
+
 ## Contents
 
 - OpSec
@@ -36,7 +38,7 @@
 
 ## Intro
 
-The goal is to stay on-line with total anonymity. This is nearly impossible. However, general anonymity is possible and it starts with Tor, an e-mail provider, following best practices.
+The goal is to stay on-line with total anonymity. This is nearly impossible. However, general anonymity is possible and it starts with Tor, an e-mail provider, and following best practices.
 
 While all of the topics listed are covered a dozen times over in dozens of on-line locations, and more than one individual or organization has collected related information into a single repository, the manner of presentation and challenges in finding the information prevent the average device user from gaining practical knowledge.
 
@@ -98,12 +100,12 @@ Privacy protection is a habit, an often repeated “To do...” list. A secure d
 - Turn OFF printing
 - Turn ON airplane mode
 - In App settings "Data Usage" disable background usage
-- In app settings "Storage" Cear cache
+- In app settings "Storage" clear cache
 - Download, install, and use an anonymous VPN
-- Connect the device to public WiFi hot-spots in airplane mode
+- Connect the device to public Wi-Fi, in airplane mode
 - Avoid at work and at home device usage
-- Vary time of day of device usage, presuming device is off between uses
-- Vary location of device usage, presuming device is off between uses
+- Vary the time of day of device usage, presuming device is off between uses
+- Vary the location of device usage, presuming device is off between uses
 - Provide the minimum required data on-line
 - Provide false or obscured data on-line when possible
 - Learn how to clear ALL browser data on exit
@@ -120,28 +122,25 @@ Privacy protection is a habit, an often repeated “To do...” list. A secure d
 
 >[top](#services) | [proxy](#proxy) | [core](#core-apps) | [msg](#messaging) | [file](#files) | [soc](#social) | [mail](#e-mail) | [img](#images) | [data](#database) | [gis](#gis) | [local](#local-apps) | [other](#other) | [bad](#broken)
 
-Note: Most service providers have both web and app interfaces. The Google Play store links are abbreviated to id=..., presuming the the full URL includes: 
+Note: Most service providers have both web and app interfaces. The Google Play store links are abbreviated to id=..., presuming the full URL includes: 
 
 > `https://play.google.com/store/apps/details?`
 
 # Proxy
 
+>[top](#services) | [proxy](#proxy) | [core](#core-apps) | [msg](#messaging) | [file](#files) | [soc](#social) | [mail](#e-mail) | [img](#images) | [data](#database) | [gis](#gis) | [local](#local-apps) | [other](#other) | [bad](#broken)
+
 Unlike the rest of the services and apps listed, the first two provide a low-level anonymous connection to the Internet.
 
 Tor and Orbot are transparent services that underlay other apps. Tor is a standalone combo that supports the Firefox browser, and Orbot anonymously redirects all registered apps' Internet traffic.
 
-In general, never connect the device to the Internet through the device’s data plan. Connect through a public WiFi hot-spot in airplane mode using anonymous Tor and/or Orbot.
-
-Note: Most service providers have both web and app interfaces. The Google Play store links are abbreviated to id=..., presuming the the full URL includes: 
-
-> `https://play.google.com/store/apps/details?`
-
->[top](#services) | [proxy](#proxy) | [core](#core-apps) | [msg](#messaging) | [file](#files) | [soc](#social) | [mail](#e-mail) | [img](#images) | [data](#database) | [gis](#gis) | [local](#local-apps) | [other](#other) | [bad](#broken)
+In general, never connect the device to the Internet through the device’s data plan. Connect through public Wi-Fi, in airplane mode, using anonymous Tor and/or Orbot.
 
 ## Tor
 
-|:------ |:------ |
-| Play | `id=org.tor` |
+| | |
+| -----:|:----- |
+| Play | `id=org.torproject.torbrowser` |
 | Main | `https://www.torproject.com` |
 | Note | Tor combines a Firefox browser and VPN |
 | Note | No registration nor username required |
@@ -151,8 +150,9 @@ Note: Most service providers have both web and app interfaces. The Google Play s
 
 ## Orbot
 
+| | |
 | -----:|:----- |
-| Play | `id=org.orbot` |
+| Play | `id=org.torproject.android` |
 | Main | `https://www.torproject.com` |
 | Note | Orbot combines an app launcher and VPN |
 | Note | Orbot may run along-side Tor. |
@@ -167,9 +167,9 @@ Note: Most service providers have both web and app interfaces. The Google Play s
 
 There are millions of services & apps.
 
-Most apps either primarily or secondarily connect to the Internet. Few fail to connect to the internet, though some apps are functional in airplane mode with WiFi off. Primary connections include messaging and browsing. Secondary connections include ad delivery and spying. 
+Most apps either primarily or secondarily connect to the Internet. Few fail to connect to the internet, though some apps are functional in airplane mode with Wi-Fi off. Primary connections include messaging and browsing. Secondary connections include ad delivery and spying. 
 
-Most device users require a few common apps and default to pre-installed apps, with default ‘Settings’. Always thoroughly update app ‘Settings’.
+Most device users require a few common apps and they default to pre-installed apps, with default ‘Settings’. Always thoroughly update app ‘Settings’.
 
 This list includes anonymous free alternative services (non-app) and apps. The ‘Settings’ for each service or app should be thoroughly updated.
 
@@ -179,22 +179,25 @@ Several services require two-factor authentication. A few support e-mail and a f
 
 ### Hotmail
 
+| | |
 | -----:|:----- |
-| Play | `id=com.hotmail` |
+| Play | `id=com.microsoft.office.outlook` |
 | Main | `https://outlook.live.com/owa` |
 | User | `username@hotmail.com` |
 | Auth | `Pass*Word...` |
-| Recov | `username@protonmail.com` |
+| Recov | `username@someothermail.com` |
+| Note | Tor-related connection failure using app |
 
 ### Google Voice
 
+| | |
 | -----:|:----- |
-| Play | `id=com.Google.Voice` |
+| Play | `id=com.google.android.apps.googlevoice` |
 | Acct | `NUMBER` |
 
 Google Voice offers a free phone number supporting voice calls and texts over the Internet.
 
-Unfortunately, the number is associated with the device’s phone number. Getting a burner SIM for the device lessens exposure but increases hassle and cost. Getting a separate burner phone reduces hassle but increases cost. There are several dual-SIM phones available. Using a SIM-less burner phone reduces cost, and hassle, but eliminates non-VOIP voice calling and texting and entails WiFi dependency.
+Unfortunately, the number is associated with the device’s phone number. Getting a burner SIM for the device lessens exposure but increases hassle and cost. Getting a separate burner phone reduces hassle but increases cost. There are several dual-SIM phones available. Using a SIM-less burner phone reduces cost, and hassle, but eliminates non-VOIP voice calling and texting and entails Wi-Fi dependency.
 
 ## Messaging
 
@@ -202,8 +205,9 @@ Unfortunately, the number is associated with the device’s phone number. Gettin
 
 ### Telegram X
 
+| | |
 | -----:|:----- |
-| Play | `id=com.Telegramx` |
+| Play | `id=org.thunderdog.challegram` |
 | Main | `https://web.telegram.org/k` |
 | Home | `https://t.me/username` |
 | Tiny | `https://t.me` |
@@ -212,20 +216,22 @@ Unfortunately, the number is associated with the device’s phone number. Gettin
 
 ### Signal
 
+| | |
 | -----:|:----- |
-| Play | `id=com.Signal` |
+| Play | `id=org.thoughtcrime.securesms` |
 | Main | `https://signal.com` |
 | Home | ` ` |
 | User | `username@hotmail.com` |
 | Auth | `Pass*Word...` |
 | Text | *Google Voice* |
 | Pin | `NUMBER` |
-| Note | Learning curve Files |
+| Note | Learning curve |
 
 ### Skype
 
+| | |
 | -----:|:----- |
-| Play | id=`com.skype` |
+| Play | id=`com.skype.raider` |
 | User | `username@hotmail.com` |
 | Auth | `Pass*Word...` |
 | Acct | `NUMBER` |
@@ -234,8 +240,9 @@ Unfortunately, the number is associated with the device’s phone number. Gettin
 
 ### WhatsApp
 
+| | |
 | -----:|:----- |
-| Play | id=`com.WharsApp` |
+| Play | id=`com.whatsapp` |
 | User | `username@hotmail.com` |
 | Auth | `Pass*Word...` |
 | Note | Facebook service |
@@ -254,8 +261,9 @@ Several providers operate like a drop-box. Old-school ftp servers mimic local fi
 
 ### Github
 
+| | |
 | -----:|:----- |
-| Play | `id=com.Github` |
+| Play | `id=com.github.android` |
 | Login | `https://github.com/login` |
 | Home | `https://github.com/username` |
 | User | `username@hotmail.com` |
@@ -263,6 +271,7 @@ Several providers operate like a drop-box. Old-school ftp servers mimic local fi
 
 ### Pastebin
 
+| | |
 | -----:|:----- |
 | Login | `https://pastebin.com/login` |
 | Home | `https://pastebin.com/u/username` |
@@ -271,8 +280,9 @@ Several providers operate like a drop-box. Old-school ftp servers mimic local fi
 
 ### Bitbucket
 
+| | |
 | -----:|:----- |
-| Play | `id=com.Bitbucket` |
+| Play | `id=com.github.android` |
 | Main | `https://bitbucket.org` |
 | Home | `https://bitbucket.org/username` |
 | User | `username@hotmail.com` |
@@ -280,8 +290,9 @@ Several providers operate like a drop-box. Old-school ftp servers mimic local fi
 
 ### Dropbox
 
+| | |
 | -----:|:----- |
-| Play | `id=com.Dropbox` |
+| Play | `id=com.dropbox.android` |
 | Main | `https://www.Dropbox.com` |
 | Home | `https://Dropbox.com/username` |
 | User | `username@hotmail.com` |
@@ -290,8 +301,9 @@ Several providers operate like a drop-box. Old-school ftp servers mimic local fi
 
 ### Mega
 
+| | |
 | -----:|:----- |
-| Play | `id=com.Mega` |
+| Play | `id=mega.privacy.android.app` |
 | Main | `https://www.Mega.nz` |
 | Home | `https://Mega.com/username` |
 | User | `username@hotmail.com` |
@@ -311,8 +323,9 @@ Two of these services require a mobile number (Google Voice). Two providers supp
 
 ### Reddit
 
+| | |
 | -----:|:----- |
-| Play | `id=com.Reddit` |
+| Play | `id=com.reddit.frontpage` |
 | Main | `https://www.reddit.com` |
 | Login | `https://www.reddit.com/login` |
 | Home | `https://www.reddit.com/u/username` |
@@ -321,8 +334,9 @@ Two of these services require a mobile number (Google Voice). Two providers supp
 
 ### Tumblr
 
+| | |
 | -----:|:----- |
-| Play | `id=com.Tumblr` |
+| Play | `id=com.tumblr` |
 | Main | `https://tumblr.com` |
 | Login | `https://tumblr.com/login` |
 | Home | `https://username.tumblr.com` |
@@ -332,8 +346,9 @@ Two of these services require a mobile number (Google Voice). Two providers supp
 
 ### Twitter
 
+| | |
 | -----:|:----- |
-| Play | `id=com.Twitter` |
+| Play | `id=com.Twitter.android` |
 | Main | `https://twitter.com` |
 | Login | `https://twitter.com/i/flow/login` |
 | Util | `https://tweetdeck.twitter.com` |
@@ -346,8 +361,9 @@ Two of these services require a mobile number (Google Voice). Two providers supp
 
 ### Pinterest
 
+| | |
 | -----:|:----- |
-| Play | `id=com.Pinterest` |
+| Play | `id=com.pinterest` |
 | Main | `https://www.pinterest.com` |
 | Login | `https://www.pinterest.com/login` |
 | Home | `https://www.pinterest.com/username` |
@@ -356,8 +372,9 @@ Two of these services require a mobile number (Google Voice). Two providers supp
 
 ### Instagram
 
+| | |
 | -----:|:----- |
-| Play | `id=com.Instagram` |
+| Play | `id=com.instagram.android` |
 | Main | `https://www.instagram.com` |
 | Login | `https://www.instagram.com/login` |
 | Home | `https://www.instagram.com/username` |
@@ -376,7 +393,7 @@ There are four types of anonymous e-mail:
 - Web-mail enabling e-mail forwarding to a second e-mail address, with or without the ‘Send’ function
 - Web-mail enabling only the receive function with security through obscurity, public drop-boxes, no login
 
-Trade-offs... some services support file attachments, some do not, where links to anonymous file sharing sites are employed instead. Some require phone verification, but accept Google Voice. Some services are sandboxed within the domain. Some expire after a few days or delete e-mail after a few days. Some services rely on CAPTCHA during login. Some have apps that work over a VPN.
+Trade-offs... some services support file attachments, some do not, where links to anonymous file sharing sites are employed instead. Some require phone verification, but accept Google Voice. Some services are sandboxed within their**** domain. Some expire after a few days or delete e-mail after a few days. Some services rely on CAPTCHA during login. Some have apps that work over a VPN.
 
 Advanced users may combine two or more services: double-forwarding e-mails or ‘sharing’ a drop-box where ‘drafts’ are composed but never sent, requiring regular visits to the site.
 
@@ -386,8 +403,9 @@ Two providers do not require authentication nor do they provide privacy (drop-bo
 
 ### Protonmail
 
+| | |
 | -----:|:----- |
-| Play | `id=com.Protonmail` |
+| Play | `id=ch.Protonmail.android` |
 | Main | `https://protonmail.com` |
 | Login | `https://account.proton.me/login` |
 | User | `username@protonmail.com` |
@@ -395,8 +413,9 @@ Two providers do not require authentication nor do they provide privacy (drop-bo
 
 ### Tutanota
 
+| | |
 | -----:|:----- |
-| Play | `id=com.Tutanota` |
+| Play | `id=de.tutao.tutanota` |
 | Main | `https://mail.tutanota.com` |
 | Login | `https://mail.tutanota.com/login` |
 | User | `username@tutanota.com` |
@@ -406,6 +425,7 @@ Two providers do not require authentication nor do they provide privacy (drop-bo
 
 ### Zoho
 
+| | |
 | -----:|:----- |
 | Play | `id=com.zoho.mail` |
 | Main | `https://www.zoho.com` |
@@ -420,6 +440,7 @@ Two providers do not require authentication nor do they provide privacy (drop-bo
 
 ### Mailfence
 
+| | |
 | -----:|:----- |
 | Main | `https://mailfence.com` |
 | Login | `https://mailfence.com/login` |
@@ -429,6 +450,7 @@ Two providers do not require authentication nor do they provide privacy (drop-bo
 
 ### Trashmail
 
+| | |
 | -----:|:----- |
 | Main | `https://trashmail.com` |
 | User | `username@my10minutemail.com` |
@@ -436,12 +458,14 @@ Two providers do not require authentication nor do they provide privacy (drop-bo
 
 ### Mailnesia
 
+| | |
 | -----:|:----- |
 | Main | `https://mailnesia.com` |
 | Note | *public drop-box* |
 
 ### Mailinator
 
+| | |
 | -----:|:----- |
 | Main | `https://mailinator.com` |
 | Note | *public drop-box* |
@@ -454,8 +478,9 @@ There is cross-over between image file sharing and social media image sharing an
 
 ### Snapfish
 
+| | |
 | -----:|:----- |
-| Play | `id=com.Snapfish` |
+| Play | `id=com.snapfish.mobile` |
 | Main | `https://www.snapfish.com` |
 | Home | ` ` |
 | Login | `https://www.snapfish.com/loginto` |
@@ -465,8 +490,9 @@ There is cross-over between image file sharing and social media image sharing an
 
 ### Imgur
 
+| | |
 | -----:|:----- |
-| Play | `id=com.Imgur` |
+| Play | `id=com.imgur.mobile` |
 | Main | `https://www.imgur.com` |
 | Home | `https://imgur.com/user/username` |
 | Login | `https://www.imgur.com/login` |
@@ -482,7 +508,9 @@ There is cross-over between image file sharing and social media image sharing an
 
 ### Mongo DB
 
+| | |
 | -----:|:----- |
+| Play | `id=in.nexzone.mongodb` |
 | Main | `https://cloud.mongodb.com` |
 | Login | `https://account.mongodb.com/account` |
 | User | `username@hotmail.com` |
@@ -491,7 +519,9 @@ There is cross-over between image file sharing and social media image sharing an
 
 ### Clever Cloud
 
+| | |
 | -----:|:----- |
+| Play | `id=` |
 | Main | `https://console.clever-cloud.com` |
 | Login | `https://api.clever-cloud.com/v2/session/login` |
 | User | `username@hotmail.com` |
@@ -503,19 +533,17 @@ There is cross-over between image file sharing and social media image sharing an
 
 ### Google Data Studio
 
+| | |
 | -----:|:----- |
-| Main | `https://datastudio.google.com` |
-| Note | Not tested |
-
-### Google Cloud Console
-
-| -----:|:----- |
+| Play | `id=` |
 | Main | `https://datastudio.google.com` |
 | Note | Not tested |
 
 ### IBM Cloud
 
+| | |
 | -----:|:----- |
+| Play | `id=` |
 | Main | `https://cloud.ibm.com` |
 | Note | Not tested |
 
@@ -525,6 +553,7 @@ There is cross-over between image file sharing and social media image sharing an
 
 ### QGIS
 
+| | |
 | -----:|:----- |
 | Play | `id=com.qgis` |
 | Main | ` ` |
@@ -535,8 +564,9 @@ There is cross-over between image file sharing and social media image sharing an
 
 ### Google Earth
 
+| | |
 | -----:|:----- |
-| Play | `id=com.Google.Earth` |
+| Play | `id=com.google.Earth` |
 | Main | ` ` |
 | Home | ` ` |
 | User | `username@hotmail.com` |
@@ -545,8 +575,9 @@ There is cross-over between image file sharing and social media image sharing an
 
 ### ArcGIS Field Maps
 
+| | |
 | -----:|:----- |
-| Play | `id=com.ArcGIS-Field-Maps` |
+| Play | `id=com.esri.fieldmaps` |
 | Main | ` ` |
 | Home | ` ` |
 | User | `username@hotmail.com` |
@@ -555,25 +586,20 @@ There is cross-over between image file sharing and social media image sharing an
 
 ### ArcGIS Earth
 
+| | |
 | -----:|:----- |
-| Play | `id=com.ArcGIS-Earth` |
+| Play | `id=com.esri.earth.phone` |
 | Main | ` ` |
 | Home | ` ` |
 | User | `username@hotmail.com` |
 | Auth | `Pass*Word...` |
 | Note | Not tested |
 
-## Git Commands
-
-| -----:|:----- |
-| Play | `id=com.Git-Commands` |
-| Note | Comprehensive guide to command-line Git |
-
 # Local Apps
 
 >[top](#services) | [proxy](#proxy) | [core](#core-apps) | [msg](#messaging) | [file](#files) | [soc](#social) | [mail](#e-mail) | [img](#images) | [data](#database) | [gis](#gis) | [local](#local-apps) | [other](#other) | [bad](#broken)
 
-Note: To access Device "Developer" mode - select Settings, System, Phone, 7x tap build number
+Note: To access Device "Developer" mode - select Settings, System, Phone, 7x tap on build number
 
 ## Connections
 
@@ -581,36 +607,50 @@ Note: To access Device "Developer" mode - select Settings, System, Phone, 7x tap
 
 ### NetX
 
+| | |
 | -----:|:----- |
-| Play | `id=com.NetX` |
+| Play | `id=com.tools.netgel.netx` |
 | Note | Some testing |
 | Note | Wi-Fi signal analysis and scanner |
 
 ### IP Tools
 
+| | |
 | -----:|:----- |
-| Play | `id=com.IP-Tools` |
+| Play | `id=com.ddm.iptools` |
 | Note | Some testing |
 | Note | Wi-Fi signal analysis and scanner |
 
 ### Web Tools
 
+| | |
 | -----:|:----- |
-| Play | `id=com.Web-Tools` |
+| Play | `id=com.ddm.iptools` |
 | Note | Some testing |
 | Note | Wi-Fi signal analysis and scanner |
 
-### WiFiman
+### Wi-Fiman
 
+| | |
 | -----:|:----- |
-| Play | `id=com.WiFiman` |
+| Play | `id=com.ubnt.usurvey` |
 | Note | Some testing |
 | Note | Wi-Fi signal analysis and scanner |
 
 ### NoRoot-Firewall
 
+| | |
 | -----:|:----- |
-| Play | `id=com.NoRoot-Firewall` |
+| Play | `id=app.greyshirts.firewall` |
+| Note | Not tested |
+| Note | IP Tables internet security |
+
+### Dataguard Firewall
+
+| | |
+| -----:|:----- |
+| Play | `id=com.fulldive.extension.dataguard` |
+| Note | No `root` required |
 | Note | Not tested |
 | Note | IP Tables internet security |
 
@@ -618,41 +658,70 @@ Note: To access Device "Developer" mode - select Settings, System, Phone, 7x tap
 
 >[top](#local-apps) | [conn](#connections) | [util](#utilities) | [virus](#anti-virus) | [crypt](#cryptography)
 
+### Markor
+
+| | |
+| -----:|:----- |
+| Play | `id=net.gsantner.markor` |
+| Note | Sophisticated program editor, regexp |
+
+### Obsidian
+
+| | |
+| -----:|:----- |
+| Play | `id=md.obsidian` |
+| Note | Sophisticated program editor |
+
+### ACode
+
+| | |
+| -----:|:----- |
+| Play | `id=com.foxdebug.acodefree` |
+| Note | Sophisticated program editor |
+| Note | Links to GitHub |
+
 ### File-Converter
 
+| | |
 | -----:|:----- |
-| Play | `id=com.File-Converter` |
+| Play | `id=com.icecoldapps.fileconverter` |
 | Note | Extensive list of file formats supported |
 
 ### Category-Files
 
+| | |
 | -----:|:----- |
-| Play | `id=com.Category-Files` |
+| Play | `id=` |
 | Note | Sophisticated file manager |
-
-### Markor
-
-| -----:|:----- |
-| Play | `id=com.Markor` |
-| Note | Sophisticated program editor, regexp |
 
 ### Termux
 
+| | |
 | -----:|:----- |
-| Play | `id=com.Termux` |
+| Play | `id=com.termux` |
+| Note | Linux shell, command-line access |
+
+### Terminal Emulator
+
+| | |
+| -----:|:----- |
+| Play | `id=jackpal.androidterm` |
 | Note | Linux shell, command-line access |
 
 ### Hackers Keyboard
 
+| | |
 | -----:|:----- |
-| Play | `id=com.Hackers-Keyboard` |
-| Note | Not tested |
+| Play | `id=org.pocketworkstation.pckeyboard` |
+| Note | Some testing |
 | Note | Alternative keyboard for programmers |
 
 ### BusyBox
 
+| | |
 | -----:|:----- |
-| Note | Linux tools, shell, `root` required |
+| Note | Linux shell and tools|
+| Note | `root` required |
 | Note | Not tested |
 
 ## Anti-virus
@@ -661,63 +730,87 @@ Note: To access Device "Developer" mode - select Settings, System, Phone, 7x tap
 
 ### Norton 360 Anti-Virus
 
+| | |
 | -----:|:----- |
-| Play | `id=com.Norton-360-Anti-Virus` |
+| Play | `id=com.symantec.mobilesecurity` |
 | Note | Established anti-virus app and scanner |
 
 ### AVG Anti-Virus
 
+| | |
 | -----:|:----- |
-| Play | `id=com.AVG-Anti-Virus` |
+| Play | `id=com.antivirus` |
 | Note | Established anti-virus app and scanner |
 
 ### McAfee Security
 
+| | |
 | -----:|:----- |
-| Play | `id=com.McAfee-Security` |
+| Play | `id=com.wsandroid.suite` |
 | Note | Established anti-virus app and scanner |
 
 ### Anti-Virus Free
 
+| | |
 | -----:|:----- |
 | Play | `id=com.Anti-Virus-Free` |
 | Note | Anti-virus app and scanner |
 
 ### Avira Security
 
+| | |
 | -----:|:----- |
-| Play | `id=com.Avira-Security` |
+| Play | `id=com.avira.android` |
 | Note | Anti-virus app and scanner |
 
 ## Cryptography
 
 >[top](#local-apps) | [conn](#connections) | [util](#utilities) | [virus](#anti-virus) | [crypt](#cryptography)
 
+### Files by Google
+
+| | |
+| -----:|:----- |
+| Play | `id=com.google.android.apps.nbu.files` |
+| Note | May require update from Play Store |
+| Note | Ecrypted vault - Browse, Safe Folder, PIN |
+
+### File Locker
+
+| | |
+| -----:|:----- |
+| Play | `id=inno.filelocker` |
+| Note | Ecrypted file vault |
+
 ### Authenticator
 
+| | |
 | -----:|:----- |
-| Play | `id=com.Authenticator` |
+| Play | `id=com.google.android.apps.authenticator2` |
 | Note | Not tested |
 | Note | one-time-pad support for other apps |
 
 ### Hash Droid
 
+| | |
 | -----:|:----- |
-| Play | `id=com.Hash-Droid` |
+| Play | `id=com.hobbyone.hashdroid` |
 | Note | Not tested |
 | Note | cryptographic tools |
 
 ### Cryptography
 
+| | |
 | -----:|:----- |
-| Play | `id=com.Cryptography` |
+| Play | `id=com.nitramite.cryptography` |
 | Note | Not tested |
 | Note | cryptographic tools |
 
 ### Authy
 
+| | |
 | -----:|:----- |
-| Play | `id=com.Authy` |
+| Play | `id=com.authy.authy` |
 | Note | Not tested |
 | Note | cryptographic tools |
 
@@ -725,8 +818,23 @@ Note: To access Device "Developer" mode - select Settings, System, Phone, 7x tap
 
 >[top](#services) | [proxy](#proxy) | [core](#core-apps) | [msg](#messaging) | [file](#files) | [soc](#social) | [mail](#e-mail) | [img](#images) | [data](#database) | [gis](#gis) | [local](#local-apps) | [other](#other) | [bad](#broken)
 
+## Git Commands
+
+| | |
+| -----:|:----- |
+| Play | `id=com.shubham.gitcommands` |
+| Note | Comprehensive guide to command-line Git |
+
+## Linux Commands
+
+| | |
+| -----:|:----- |
+| Play | `id=linux.command` |
+| Note | Comprehensive guide to command-line Linux |
+
 ## Trademarks
 
+| | |
 | -----:|:----- |
 | Main | `https://uspto.gov` |
 | Login | `https://account.uspto.gov` |
@@ -740,6 +848,7 @@ Note: To access Device "Developer" mode - select Settings, System, Phone, 7x tap
 
 ## Patents
 
+| | |
 | -----:|:----- |
 | Main | `https://????.gov` |
 | Login | `https://account.????.gov` |
@@ -755,10 +864,13 @@ Note: To access Device "Developer" mode - select Settings, System, Phone, 7x tap
 
 >[top](#services) | [proxy](#proxy) | [core](#core-apps) | [msg](#messaging) | [file](#files) | [soc](#social) | [mail](#e-mail) | [img](#images) | [data](#database) | [gis](#gis) | [local](#local-apps) | [other](#other) | [bad](#broken)
 
+These apps failed to launch or are otherwise not worth your time.
+
 ## LinkedIn
 
+| | |
 | -----:|:----- |
-| Play | `id=com.LinkedIn` |
+| Play | `id=com.linkedin.android` |
 | Main | `https://www.linkedin.com` |
 | Login | `https://www.linkedin.com/login` |
 | Home | `https://www.linkedin.com/in/username` |
@@ -769,53 +881,76 @@ Note: To access Device "Developer" mode - select Settings, System, Phone, 7x tap
 
 ## Yahoo!
 
+| | |
 | -----:|:----- |
-| Play | `id=com.Yahoo` |
+| Play | `id=com.yahoo.mobile.client.android.mail` |
 | Main | `https://yahoo.com` |
 | User | `username@yahoo.com` |
-| Auth | `per*son*...` |
+| Auth | `Pass*Word*...` |
 | Text | *Google Voice* rejected |
 
 ## AOL
 
+| | |
 | -----:|:----- |
 | Note | Owned by Yahoo! |
 
 ## Flickr
 
+| | |
 | -----:|:----- |
-| Play | `id=com.Flickr` |
+| Play | `id=com.flickr.android` |
 | Main | `https://www.flickr.com` |
 | Login | `https://www.flickr.com/login` |
 | User | `@username` |
 | Auth | `Pass*Word...` |
 | Recov | `username@hotmail.com` |
 | Text | *Google Voice* |
-| Note | login loop on App. |
+| Note | login loop on app |
 
 ## Quora
 
+| | |
 | -----:|:----- |
-| Play | `id=com.Quora` |
+| Play | `id=ccom.quora.android` |
 | Main | `https://www.quora.com` |
-| Home | `https://www.quora.com/profile/personhood` |
+| Home | `https://www.quora.com/profile/username` |
 | Login | `https://www.quora.com/login` |
 | User | `username@hotmail.com` |
 | Auth | `Pass*Word...` |
 | Note | Tor-related login problems |
 
+## Google Cloud Console
+
+| | |
+| -----:|:----- |
+| Play | `id=com.google.android.apps.cloudconsole` |
+| Main | `https://datastudio.google.com` |
+| Note | Tor-related connection failure |
+
+## Microsoft Authenticator
+
+| | |
+| -----:|:----- |
+| Play | `id=com.azure.authenticator` |
+| Note | one-time-pad support for other apps |
+| Note | Tor-related connection failure |
+
 ## Facebook
 
+| | |
 | -----:|:----- |
 | Note | Not an anonymous service |
 
 ## TikTok
 
+| | |
 | -----:|:----- |
 | Note | Not an anonymous service |
 
 ## Google Docs
 
+| | |
 | -----:|:----- |
 | Note | Not an anonymous service |
 | Note | Linked to mobile number |
@@ -849,7 +984,7 @@ Note: To access Device "Developer" mode - select Settings, System, Phone, 7x tap
 - `https://en.wikipedia.com`
 - Technically not a search engine
 - Millions of searchable articles 
-- Cross referenced to other Articles
+- Cross referenced to other articles
 - Extensive footnotes to print/on-line resources
 - Multiple languages
 - No ads
@@ -890,8 +1025,3 @@ Note: To access Device "Developer" mode - select Settings, System, Phone, 7x tap
 - World's largest medical library, on-line
 - US National Library of Medicine (NLM)
 - US National Institutes of Health (NIH).
-
-## Git Commands
-
-- Search Google Play for app
-- Comprehensive command-line Git guide
