@@ -773,14 +773,14 @@ Note: To access Device "Developer" mode - select Settings, System, Phone, 7x tap
 | -----:|:----- |
 | Play | `id=com.google.android.apps.nbu.files` |
 | Note | May require update from Play Store |
-| Note | Ecrypted vault - Browse, Safe Folder, PIN |
+| Note | Encrypted vault - Browse, Safe Folder, PIN |
 
 ### File Locker
 
 | | |
 | -----:|:----- |
 | Play | `id=inno.filelocker` |
-| Note | Ecrypted file vault |
+| Note | Ecrypted vault |
 
 ### Authenticator
 
