@@ -31,7 +31,7 @@ Services
 - Proxy 
 - Core 
 - Messaging 
-- Files 
+- Storage
 - Social 
 - Funding 
 - E-mail 
