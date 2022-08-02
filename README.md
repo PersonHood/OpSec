@@ -10,61 +10,72 @@ in a haystack, and will provide a first
 step in minimizing unintentional 
 information sharing.
 
-OpSec 
 - Contents 
 - Intro 
+- Overview 
 
-Overview 
-
-Devices 
+## Devices 
 - Purchase 
 - Disposal 
 - Advanced 
 
-Privacy 
+## Privacy 
 - Isolate 
 - Restrict 
 - Share 
 - Hide 
 
-Services 
+## Services 
 - Proxy 
 - Core 
 - Messaging 
 - Storage
 - Social 
-- Funding 
 - E-mail 
-- Images 
+- Funding
+- Bitcoin
+- IRC
+- Image
 - Database 
-- Feeds 
+- Feed
 - Geographic 
+- Other
 
-Local 
-- Connections 
-- Firewalls 
-- Encryption 
-- Editors 
-- File 
-- Terminal 
-- Hacker 
-- Anti-Virus 
-- Authentication 
-- Hashes 
+## Local 
+- Connection
+- Firewall
+- Encryption
+- Editor
+- File
+- Terminal
+- Hacker
+- Anti-Virus
+- Authentication
+- Hash
 
-Search 
+## Domain
+
+## Compile
+- Java
+- PERL
+- PHP
+
+## Search 
 - Structured 
 - Unstructured 
 
-Guides 
-- Wikipedia 
-- NOLO Press 
+## Library
+- Wikipedia Encyclopedia
+- NOLO Legal Press 
 - Med Line Plus 
 - Linux Commands 
 - Git Commands 
 - Regex Commands 
+- Java Commands
+- PHP Commands
+- PERL Commands
 
-Broken 
+## Broken 
 - Tor blocked 
 - Google Voice blocked 
-- Not anonymous 
+- Not anonymous by design
