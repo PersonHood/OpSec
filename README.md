@@ -1,5 +1,7 @@
 # OpSec
 
+Download the latest `Release` zip file.
+
 Day-to-day use of modern interconnected 
 devices reveals more about an individual 
 than may be understood. 
