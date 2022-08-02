@@ -1,0 +1,9 @@
+a:link { color: white; } /* all headers are md links */
+h1 { font-size: 2.75rem; }
+h1 { font-family: ui-monospace; } 
+h1 { line-height: 1.5em; }
+h1 { font-variant: small-caps; }
+h1 { border-left: 1px solid blue; }
+h1 { letter-spacing: 2px; }
+h1 { background-color: black; }
+h1 { text-align: end; }
