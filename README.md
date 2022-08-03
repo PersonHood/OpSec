@@ -1,6 +1,8 @@
 # OpSec
 
-Download the latest `Release` zip file.
+Download the latest `Release`.
+
+>[zip](https://github.com/PersonHood/OpSec/archive/refs/tags/v2.0.zip)
 
 Day-to-day use of modern interconnected 
 devices reveals more about an individual 
