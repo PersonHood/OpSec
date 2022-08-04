@@ -1,0 +1,147 @@
+[ Use at your own risk. No warranty. ]::
+
+| ---:| --- | --- |
+| Phone | Code | Description |
+| 5689#*990# | LG | Sprint Hidden Menu |
+| 3845#*855# | LG | International Models Hidden Menu |
+| 3845#*851# | T-Mobile LG | Hidden Menu |
+| 3845#*850# | AT&T LG | Hidden Menu |
+| 3845#*400# | LG | Korean models Hidden Menu | 
+| *#06# |  Generic | Displays IMEI number |
+| 12345 | ASUS | >=Entered in the stock calculator app - Opens the engineering mode |
+| *2767*3855# |  Generic | Completely Wipe device, install stock firmware |
+| *2767*3855# |  Generic | Reinstall the firmware |
+| *2767*3855# |  Motorola | Format device to factory reset - will delete everything on phone |
+| *2767*3855# |  Sony | Factory reset on Xperia Z |
+| **05***# |  Sony | Execute from Emergency dial screen to unlock PUK code |
+| *#9900# |  Generic | System dump mode |
+| *#9900# |  Motorola | System dump mode |
+| *#9900# |  Samsung | Opens up system dump mode |
+| *#9090# |  Generic | Diagnostic configuration |
+| *#9090# |  Motorola | Diagnostic configuration |
+| *#888# |  Samsung |  Displays advanced debugging tools |
+| *#9090# | OnePlus | PCB version of the motherboard of the phone |
+| *#888# |  Realme | PCB version of the motherboard of the phone |
+| *#8736364# |  Generic | OTA update menu |
+| *#872564#* |  Motorola | USB logging control |
+| *#872564# |  Generic | USB logging control |
+| *#800# |  Realme | Opens up the factory mode/feedback menu |
+| *#7465625# |  Motorola | View phone lock status |
+| *#746# |  Generic | Debug dump menu |
+| *#7353# |  Generic | Quick test menu |
+| *#7353# |  Samsung | Quick test menu |
+| *#7284# |  Generic | USB 12C mode control |
+| *#6776# |  Realme | software version |
+| *#66# |  OnePlus | IMEI and MEID in an encrypted format |
+| *#34971539# |  Samsung | Displays advanced camera firmware inco |
+| *#3282*727336*# |  Generic | Data usage status |
+| *#301279# |  Motorola | HSDPA/HSUPA Control |
+| *#273283*255*3282*# |  Generic | Data create menu |
+| *#2683662# |  Samsung | Displays advanced service mode |
+| *#2663# |  Samsung | Displays advanced firmware version menu |
+| *#2263# |  Generic | RF band selection |
+| *#1234# |  OnePlus | software version |
+| *#1234# |  Samsung | software version |
+| *#0808# |  Samsung | Displays USB settings |
+| *#0782# |  Generic | Real time clock test
+| *#07# |  ASUS | Regulatory labels |
+| *#07# |  Generic | Specific Absorption Rate SAR value of the device |
+| *#07# | Motorola | Regulatory labels |
+| *#07# |  Sony | Displays certifications details |
+| *#06# |  Generic | Displays IMEI number |
+| *#06# |  Generic | Displays IMEI number |
+| *#06# |  Motorola | Display IMEI number |
+| *#06# |  Sony | Displays IMEI number |
+| *#0589# |  Generic | Light sensor test |
+| *#03# |  Generic | NAND flash serial number |
+| *#0283# |  Samsung | Opens up the packet loopback settings |
+| *#0228# |  Generic | Battery Status |
+| *#0228# |  Samsung | Displays battery status |
+| *#011# |  Samsung | Displays network connection and serving cell related inco |
+| *#0*# |  Motorola | Service menu |
+| *#0*# |  Samsung | Opens up the hardware diagnostic menu |
+| *#*#8351#*#* |  Generic | Enables voice dialing logging mode |
+| *#*#8351#*#* |  Sony | Enables voice dialling logging mode |
+| *#*#8350#*#* |  Generic | Disables voice dialing logging mode |
+| *#*#8350#*#* |  Sony | Disables voice dialing logging mode |
+| *#*#8255#*#* |  Generic | Google Talk service monitoring |
+| *#*#8255#*#* |  Sony | For Google Talk service monitoring |
+| *#*#7780#*#* |  Generic | Remove Google account setting |
+| *#*#7780#*#* |  Generic | Factory Restore  |
+| *#*#7780#*#* |  Motorola | Reset phone factory data reset - It will not remove data or application |
+| *#*#7594#*#* |  Generic | Change Power button behavior |
+| *#*#7594#*#* |  Sony | Used for changing the power button behavior |
+| *#*#759#*#* |  Generic | RLZ Debug UI with Unique Device ID - application installation |
+| *#*#73788423#*#* |  Sony | service menu |
+| *#*#7378423#*#* |  Sony | Field Test |
+| *#*#7378423#*#* |  Sony | LCD test |
+| *#*#7262626#*#* | Field Test |  Generic | 
+| *#*#64663#*#* |  Xiaomi | hardware diagnostic menu also known as the QC test menu |
+| *#*#526#*#* |  Generic | Wireless LAN Test |
+| *#*#4986*2650468#*#* |  Generic | PDA, Hardware, Phone and RF Call Date info |
+| *#*#4986*2650468#*#* |  Sony | PDA, Hardware, Phone and RF Call Date info |
+| *#*#4636#*#* |  Generic | Displays inco about the phone, battery, and various network statistics |
+| *#*#4636#*#* |  Generic | Display Info about device  |
+| *#*#4636#*#* |  Generic | Testing Menu |
+| *#*#4636#*#* |  Motorola | Display phone information, battery & history usage statistics |
+| *#*#4636#*#* |  Sony | Access phone Info - allows you to change SMS service centre num |
+| *#*#44336#*#* |  Generic | Displays Build time and change list number |
+| *#*#44336#*#* |  Generic | Shows Build time change list number |
+| *#*#44336#*#* |  Sony | Displays Build time and change list number |
+| *#*#426#*#* |  Generic | Firebase Cloud Messaging FCM diagnostics page |
+| *#*#372733#*#* |  Google Play Nokia | Opens up the service mode also known as the FQC menu |
+| *#*#34971539#*#* |  Generic | Camera Info |
+| *#*#34971539#*#* |  Sony | Shows complete information about the camera |
+| *#*#3264#*#* |  Generic | RAM version |
+| *#*#3264#*#* |  Sony | RAM version
+| *#*#2947322243#*#* |  OnePlus | Wipes out the internal memory - use with caution |
+| *#*#273283*255*663282*#*#* |  Generic | Backup all media files |
+| *#*#273283*255*663282*#*#* |  Sony | For a quick backup to all your media files |
+| *#*#273282*255*663282*#*#* |  Motorola | Backup of all media files |
+| *#*#2664#*#* |  Generic | Touch Screen test |
+| *#*#2664#*#* |  Motorola | Test the touchscreen |
+| *#*#2664#*#* |  Sony | Touch Screen test |
+| *#*#2663#*#* |  Generic | Check touch screen version |
+| *#*#2663#*#* |  Sony | Displays touch-screen version |
+| *#*#2486#*#* |  Motorola | Opens up the engineering mode |
+| *#*#232339#*#* |  Generic | Wireless LAN Test |
+| *#*#232339#*#* |  Motorola | Backlight and vibration test |
+| *#*#232339#*#* |  Sony | Wireless LAN Test |
+| *#*#232338#*#* |  Generic | Wi-Fi Mac Address |
+| *#*#232338#*#* |  Sony | Used to Display Wi-Fi Mac-address |
+| *#*#232337#*#* |  Sony | Displays Bluetooth device address |
+| *#*#232337#*# |  Generic | Check Bluetooth device address |
+| *#*#232331#*#* |  Generic | Bluetooth test |
+| *#*#232331#*#* |  Sony | Bluetooth test |
+| *#*#225#*#* |  Generic | Displays calendar storage inco |
+| *#*#2222#*#* |  Generic | FTA Hardware version |
+| *#*#2222#*#* |  Motorola | FTA Hardware version |
+| *#*#2222#*#* |  Sony | FTA Hardware version |
+| *#*#197328640#*#* |  Generic | Used to enter into Service mode |
+| *#*#197328640#*#* |  Generic | Test mode for service activity |
+| *#*#197328640#*#* |  Motorola | Enable test mode for service |
+| *#*#197328640#*#* |  Sony | Enables test mode for service activity |
+| *#*#1575#*#* |  Generic | Another GPS test |
+| *#*#1575#*#* |  Sony | For another different type of GPS test |
+| *#*#1472365#*#* |  Generic | Quick GPS Test |
+| *#*#1472365#*#* |  Sony | Used for a quick GPS test |
+| *#*#1234#*#* |  Generic | PDA and Phone firmware information |
+| *#*#1234#*#* |  Sony | PDA and Phone firmware information |
+| *#*#1111#*#* |  Generic | FTA Software version |
+| *#*#1111#*#* |  Motorola | FTA Software version |
+| *#*#1111#*#* |  Sony | FTA Software version |
+| *#*#0842#*#* |  Generic | Vibration and Backlight test |
+| *#*#0842#*#* |  Motorola | Wireless LAN Test |
+| *#*#0842#*#* |  Sony | Vibration and Backlight test |
+| *#*#0673#*#* |  Generic | Audio Test |
+| *#*#0588#*#* |  Sony | Proximity sensor test |
+| *#*#0673#*#* | Generic | To test Audio of Xperia U | 
+| *#*#0588#*#* |  Sony | Proximity sensor test |
+| *#*#0289#*#* |  Generic | Audio Test |
+| *#*#0289#*# * |  Sony | Audio Test |
+| *#*#0283#*#* |  Generic | Packet Loopback Test |
+| *#*#0283#*#* |  Sony | Packet Loopback Test |
+| *#*#0*#*#* |  Generic | LCD test |
+| ##778 |  Generic | >call; Brings up Epst menu |
+| ##7764726 |  Motorola | Hidden service menu |
+| ##228378 |  Motorola Droid LG | >send; Verizon Hidden Menu |
