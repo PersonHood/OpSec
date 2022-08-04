@@ -1,11 +1,20 @@
+[  this is a comment. ]::
+
+<link href="styles.css" rel="stylesheet"></link>
+
+### Appendices
+
+> [Appendices](./Appendices-Top/OpSec-00-Appendices.md) | [WTF](./Appendices-Top/OpSec-01-WTF.md) | [Motivate](./Appendices-Top/OpSec-02-Motivate.md) | [Overview](./Appendices-Top/OpSec-03-Overview.md) 
+> [Definitions](./Appendices-Top/OpSec-04-Definitions.md) | [Memes](./Appendices-Top/OpSec-05-Memes.md) | [Admin](./Appendices-Top/OpSec-06-Admin.md) | [TT4N](./Appendices-Top/OpSec-07-TT4N-v2.md) | [Bibliography](./Appendices-Top/OpSec-99-Bibliography.md) 
+
 # OpSec
 
->| [top](#opsec) | [dev](#devices) | [priv](#privacy) | [svc](#services) | [local](#local) | [search](#search) | [guide](#guides) | [bad](#broken)
+>[top](#appendices) | [devices](#devices) | [privacy](#privacy) | [services](#services) | [local](#local) | [compile](#compiler) 
+>[domain](#domain) | [search](#search) | [library](#library) | [broken](#broken)
 
 Operational Security
 
 ## Contents
-
 
 **OpSec**
 
@@ -30,39 +39,41 @@ Operational Security
 
 - Proxy
 - Core
-- Messaging
+- Message
 - Storage
 - Social
 - E-mail
 - IRC
 - Funding
 - Bitcoin
-- Images
+- Image
 - Database
-- Feeds
+- Feed
 - Geographic
 - Other	
 
 **Local**
 
-- Connections
-- Firewalls
+- Connection
+- Firewall
 - Encryption
-- Editors
+- Editor
 - Files
 - Hacker
-- Terminals
+- Terminal
 - Anti-Virus
 - Authentication
-- Hashes
-- Compilers
+- Hash
+- Compiler
+
+**Domain**
 
 **Search**
 
 - Structured
 - Unstructured	
 
-**Guides**
+**Library**
 
 - Wikipedia
 - NOLO Press
@@ -97,11 +108,12 @@ To reduce hassles and maintain obscurity you may employ your own personal passwo
 
 Day-to-day use of modern interconnected devices reveal more about an individual than may be understood. When applied, this collection of operational security information will help reduce the need to search for a needle in a haystack, and will provide a first step in minimizing unintentional information sharing.
 
-This document indirectly asks questions that many do not know to ask. This document starts with the device; covers best practices and service providers; and ends with readily available informational guides.
+This document indirectly asks questions that many do not know to ask. This document starts with the device; covers best practices and service providers; and ends with readily available informational library.
 
 # Devices
 
->| [top](#opsec) | [dev](#devices) | [priv](#privacy) | [svc](#services) | [local](#local) | [search](#search) | [guide](#guides) | [bad](#broken)
+>[top](#appendices) | [devices](#devices) | [privacy](#privacy) | [services](#services) | [local](#local) | [compile](#compiler) 
+>[domain](#domain) | [search](#search) | [library](#library) | [broken](#broken)
 
 Devices are pervasive, 3+ per person…
 
@@ -126,7 +138,9 @@ Do this when disposing or selling a device:
 
 ## Advanced
 
-- Learn how to`root`your device
+- Learn howcto change your device name
+- Learn about access code phone numbers
+- Learn how to `root` your device
   - Download the device’s root kit |
    - Recovery mode reboot your device |
    - … press volume down + power buttons |
@@ -138,11 +152,11 @@ Do this when disposing or selling a device:
 - Learn how to factory reset the device
 - Learn where app files are stored, delete caches
 - Learn about Android “Dual” apps
-- Learn about access code phone numbers
 
 # Privacy
 
->| [top](#opsec) | [dev](#devices) | [priv](#privacy) | [svc](#services) | [local](#local) | [search](#search) | [guide](#guides) | [bad](#broken)
+>[top](#appendices) | [devices](#devices) | [privacy](#privacy) | [services](#services) | [local](#local) | [compile](#compiler) 
+>[domain](#domain) | [search](#search) | [library](#library) | [broken](#broken)
 
 Privacy protection is a habit, an often repeated To do... list. A secure device may be rendered insecure with bad operational security habits. Do good, be inconsistent.
 
@@ -177,10 +191,11 @@ Privacy protection is a habit, an often repeated To do... list. A secure device 
 ## Hide
 
 - Turn ON airplane mode
+- Change device name in `system` settings
 - Learn how to clear ALL browser data on exit
 - Learn how to clear all apps’ file open history
 - Learn how to clear all apps’ custom dictionaries
-- Learn how to clear all editors’ clipboards
+- Learn how to clear all editor’s clipboards
 - Before deleting, save files with large `blank` content
 - Leave ON airplane mode
 - Keep me signed in... No
@@ -189,9 +204,10 @@ Privacy protection is a habit, an often repeated To do... list. A secure device 
 
 # Services
 
->| [top](#opsec) | [dev](#devices) | [priv](#privacy) | [svc](#services) | [local](#local) | [search](#search) | [guide](#guides) | [bad](#broken)
+>[top](#appendices) | [devices](#devices) | [privacy](#privacy) | [services](#services) | [local](#local) | [compile](#compiler) 
+>[domain](#domain) | [search](#search) | [library](#library) | [broken](#broken)
 
-Note: Most service providers have both web and app interfaces. The listed Google Play Store links are abbreviated to`id=`.
+Note: Most service providers have both web and app interfaces. The listed Google Play Store links are abbreviated to `id=`.
 
 This presumes the full URL includes:
 
@@ -201,8 +217,8 @@ Whenever possible, 2 or more app/services are listed. Try out each and pick the 
 
 ## Proxy
 
->| [top](#services) | [proxy](#proxy) | [core](#core) | [msg](#messaging) | [save](#storage) | [soc](#social) | [mail](#e-mail) | [fund](#funding) |
-| [coin](#bitcoin) | [irc](#irc) | [img](#images) | [data](#database) | [feeds](#feeds) | [geo](#geographic) | [other](#other) |
+>[top](#services) | [proxy](#proxy) | [core](#core) | [msg](#message) | [save](#storage) | [soc](#social) | [mail](#e-mail) | [fund](#funding) |
+| [coin](#bitcoin) | [irc](#irc) | [img](#image) | [data](#database) | [feed](#feed) | [geo](#geographic) | [other](#other) |
 
 Unlike the rest of the services and apps listed, the first two provide a low-level anonymous connection to the Internet.
 
@@ -236,8 +252,8 @@ An added layer of anonymity may be achieved by employing`Onion`addresses in the 
 
 ## Core
 
->| [top](#services) | [proxy](#proxy) | [core](#core) | [msg](#messaging) | [save](#storage) | [soc](#social) | [mail](#e-mail) | [fund](#funding) |
-| [coin](#bitcoin) | [irc](#irc) | [img](#images) | [data](#database) | [feeds](#feeds) | [geo](#geographic) | [other](#other) |
+>[top](#services) | [proxy](#proxy) | [core](#core) | [msg](#message) | [save](#storage) | [soc](#social) | [mail](#e-mail) | [fund](#funding) |
+| [coin](#bitcoin) | [irc](#irc) | [img](#image) | [data](#database) | [feed](#feed) | [geo](#geographic) | [other](#other) |
 
 Most apps either primarily or secondarily connect to the Internet. Few fail to connect to the internet, though some apps are functional in airplane mode with Wi-Fi off. Primary connections include messaging and browsing. Secondary connections include ad delivery and spying. Most device users require a few common apps and they default to pre-installed apps, with default Settings. Always thoroughly update app Settings.
 
@@ -255,7 +271,7 @@ It is recommended that you have back-up providers, at least one, in case one ser
 | Login | `https://outlook.live.com/owa` |
 | User | `username@hotmail.com` |
 | Auth | `Pass*Word...` |
-| Recov | `username@protonmail.com` |
+| Recov | `username@yourmail.com` |
 | Note | Outlook app connection fails over Tor |
 
 ### Protonmail
@@ -264,7 +280,7 @@ It is recommended that you have back-up providers, at least one, in case one ser
 | ---:| --- |
 | Play | `id=ch.protonmail.android` |
 | Login | `https://account.proton.me/login` |
-| User | `username@protonmail.com` |
+| User | `username@yourmail.com` |
 | Auth | `Pass*Word...` |
 | Recov | `username@hotmail.com` |
 | Note	 | |
@@ -291,10 +307,10 @@ Getting a burner SIM / eSIM for your device lessens exposure but increases hassl
 
 Getting a separate burner phone and/or SIM / eSIM reduces connections to your old number.
 
-## Messaging
+## Message
 
->| [top](#services) | [proxy](#proxy) | [core](#core) | [msg](#messaging) | [save](#storage) | [soc](#social) | [mail](#e-mail) | [fund](#funding) |
-| [coin](#bitcoin) | [irc](#irc) | [img](#images) | [data](#database) | [feeds](#feeds) | [geo](#geographic) | [other](#other) |
+>[top](#services) | [proxy](#proxy) | [core](#core) | [msg](#message) | [save](#storage) | [soc](#social) | [mail](#e-mail) | [fund](#funding) |
+| [coin](#bitcoin) | [irc](#irc) | [img](#image) | [data](#database) | [feed](#feed) | [geo](#geographic) | [other](#other) |
 
 Messaging between individuals and groups is provided in multiple contexts either stand-alone or as part of a larger system (e.g., gaming also includes messaging).
 
@@ -343,8 +359,8 @@ Messaging between individuals and groups is provided in multiple contexts either
 
 ## Storage
 
->| [top](#services) | [proxy](#proxy) | [core](#core) | [msg](#messaging) | [save](#storage) | [soc](#social) | [mail](#e-mail) | [fund](#funding) |
-| [coin](#bitcoin) | [irc](#irc) | [img](#images) | [data](#database) | [feeds](#feeds) | [geo](#geographic) | [other](#other) |
+>[top](#services) | [proxy](#proxy) | [core](#core) | [msg](#message) | [save](#storage) | [soc](#social) | [mail](#e-mail) | [fund](#funding) |
+| [coin](#bitcoin) | [irc](#irc) | [img](#image) | [data](#database) | [feed](#feed) | [geo](#geographic) | [other](#other) |
 
 The largest service provides offer "Office Suites" where files may be stored. Standalone file storage provides some advantages regarding anonymity.
 
@@ -419,8 +435,8 @@ The largest service provides offer "Office Suites" where files may be stored. St
 
 ## Social
 
->| [top](#services) | [proxy](#proxy) | [core](#core) | [msg](#messaging) | [save](#storage) | [soc](#social) | [mail](#e-mail) | [fund](#funding) |
-| [coin](#bitcoin) | [irc](#irc) | [img](#images) | [data](#database) | [feeds](#feeds) | [geo](#geographic) | [other](#other) |
+>[top](#services) | [proxy](#proxy) | [core](#core) | [msg](#message) | [save](#storage) | [soc](#social) | [mail](#e-mail) | [fund](#funding) |
+| [coin](#bitcoin) | [irc](#irc) | [img](#image) | [data](#database) | [feed](#feed) | [geo](#geographic) | [other](#other) |
 
 Social, groups, communities, and forums.
 
@@ -482,7 +498,8 @@ Ignoring the 500lb gorilla, these services offer a balance between functionality
 | User | `username` |
 | Auth | `Pass*Word...` |
 | Recov | |
-| Note | Broadcast to other services - best not to |
+| Notes | Owned by Meta / Facebook |
+| | Broadcasts to other services - best not to |
 
 ### Kik
 
@@ -498,8 +515,8 @@ Ignoring the 500lb gorilla, these services offer a balance between functionality
 
 ## E-mail
 
->| [top](#services) | [proxy](#proxy) | [core](#core) | [msg](#messaging) | [save](#storage) | [soc](#social) | [mail](#e-mail) | [fund](#funding) |
-| [coin](#bitcoin) | [irc](#irc) | [img](#images) | [data](#database) | [feeds](#feeds) | [geo](#geographic) | [other](#other) |
+>[top](#services) | [proxy](#proxy) | [core](#core) | [msg](#message) | [save](#storage) | [soc](#social) | [mail](#e-mail) | [fund](#funding) |
+| [coin](#bitcoin) | [irc](#irc) | [img](#image) | [data](#database) | [feed](#feed) | [geo](#geographic) | [other](#other) |
 
 There are four types of anonymous e-mail:
 
@@ -577,8 +594,8 @@ Trade-offs: some services do not support file attachments, where links to anonym
 
 ## Funding
 
->| [top](#services) | [proxy](#proxy) | [core](#core) | [msg](#messaging) | [save](#storage) | [soc](#social) | [mail](#e-mail) | [fund](#funding) |
-| [coin](#bitcoin) | [irc](#irc) | [img](#images) | [data](#database) | [feeds](#feeds) | [geo](#geographic) | [other](#other) |
+>[top](#services) | [proxy](#proxy) | [core](#core) | [msg](#message) | [save](#storage) | [soc](#social) | [mail](#e-mail) | [fund](#funding) |
+| [coin](#bitcoin) | [irc](#irc) | [img](#image) | [data](#database) | [feed](#feed) | [geo](#geographic) | [other](#other) |
 
 This is not an anonymous activity. However, as an anonymous user you may want to crypto-contribute.
 
@@ -618,8 +635,8 @@ This is not an anonymous activity. However, as an anonymous user you may want to
 
 ## Bitcoin
 
->| [top](#services) | [proxy](#proxy) | [core](#core) | [msg](#messaging) | [save](#storage) | [soc](#social) | [mail](#e-mail) | [fund](#funding) |
-| [coin](#bitcoin) | [irc](#irc) | [img](#images) | [data](#database) | [feeds](#feeds) | [geo](#geographic) | [other](#other) |
+>[top](#services) | [proxy](#proxy) | [core](#core) | [msg](#message) | [save](#storage) | [soc](#social) | [mail](#e-mail) | [fund](#funding) |
+| [coin](#bitcoin) | [irc](#irc) | [img](#image) | [data](#database) | [feed](#feed) | [geo](#geographic) | [other](#other) |
 
 ### Binance
 
@@ -656,8 +673,8 @@ This is not an anonymous activity. However, as an anonymous user you may want to
 
 ## IRC
 
->| [top](#services) | [proxy](#proxy) | [core](#core) | [msg](#messaging) | [save](#storage) | [soc](#social) | [mail](#e-mail) | [fund](#funding) |
-| [coin](#bitcoin) | [irc](#irc) | [img](#images) | [data](#database) | [feeds](#feeds) | [geo](#geographic) | [other](#other) |
+>[top](#services) | [proxy](#proxy) | [core](#core) | [msg](#message) | [save](#storage) | [soc](#social) | [mail](#e-mail) | [fund](#funding) |
+| [coin](#bitcoin) | [irc](#irc) | [img](#image) | [data](#database) | [feed](#feed) | [geo](#geographic) | [other](#other) |
 
 Internet Relay Chat was first introduced in 1988 and it still has a loyal following; a text-only “texting” service.
 
@@ -666,11 +683,15 @@ Internet Relay Chat was first introduced in 1988 and it still has a loyal follow
 | | |
 | ---:| --- |
 | Play | `id=com.androirc` |
-| Login | `https://www.snapfish.com/loginto` |
-| Home | NA |
-| User | `username@yourmaiL.com` |
-| Auth | `Pass*Word...` |
-| Recov | NA |
+| Login | IRC only |
+| Home | app only |
+| Nick | `username` |
+| Auth | `Pass*Word` |
+| Recov | `username@yourmail.com` |
+| Notes |  `irc.freenode.net |
+| |  `irc.oftc.net` |
+| | `/msg NickServ REGISTER Pass*Word... username@yourmail.com` |
+| | `/msg NickServ IDENTIFY username Pass*Word` |
 | Text | Google Voice / { burner phone } |
 
 ### CoreIRC
@@ -678,18 +699,22 @@ Internet Relay Chat was first introduced in 1988 and it still has a loyal follow
 | | |
 | ---:| --- |
 | Play | `id=co.aureolin.coreirc.lite` |
-| Login | NA |
+| Login | IRC server only |
 | Home | app only |
 | Nick | `username` |
-| Auth | NA |
-| Recov | NA |
+| Auth | `Pass*Word` |
+| Recov | `username@yourmail.com` |
+| Notes |  `irc.freenode.net |
+| |  `irc.oftc.net` |
+| | `/msg NickServ REGISTER Pass*Word... username@yourmail.com` |
+| | `/msg NickServ IDENTIFY username Pass*Word` |
 
-## Images
+## Image
 
->| [top](#services) | [proxy](#proxy) | [core](#core) | [msg](#messaging) | [save](#storage) | [soc](#social) | [mail](#e-mail) | [fund](#funding) |
-| [coin](#bitcoin) | [irc](#irc) | [img](#images) | [data](#database) | [feeds](#feeds) | [geo](#geographic) | [other](#other) |
+>[top](#services) | [proxy](#proxy) | [core](#core) | [msg](#message) | [save](#storage) | [soc](#social) | [mail](#e-mail) | [fund](#funding) |
+| [coin](#bitcoin) | [irc](#irc) | [img](#image) | [data](#database) | [feed](#feed) | [geo](#geographic) | [other](#other) |
 
-Images may be stored wherever other files are stored, however these sites cross-sell image products and services.
+Image may be stored wherever other files are stored, however these sites cross-sell image products and services.
 
 ### Snapfish
 
@@ -717,8 +742,8 @@ Images may be stored wherever other files are stored, however these sites cross-
 
 ## Database
 
->| [top](#services) | [proxy](#proxy) | [core](#core) | [msg](#messaging) | [save](#storage) | [soc](#social) | [mail](#e-mail) | [fund](#funding) |
-| [coin](#bitcoin) | [irc](#irc) | [img](#images) | [data](#database) | [feeds](#feeds) | [geo](#geographic) | [other](#other) |
+>[top](#services) | [proxy](#proxy) | [core](#core) | [msg](#message) | [save](#storage) | [soc](#social) | [mail](#e-mail) | [fund](#funding) |
+| [coin](#bitcoin) | [irc](#irc) | [img](#image) | [data](#database) | [feed](#feed) | [geo](#geographic) | [other](#other) |
 
 Cloud database servers may be of use in application development. A few providers offer limited free accounts.
 
@@ -755,10 +780,10 @@ Cloud database servers may be of use in application development. A few providers
 | Auth | |
 | Recov | |
 
-## Feeds
+## Feed
 
->| [top](#services) | [proxy](#proxy) | [core](#core) | [msg](#messaging) | [save](#storage) | [soc](#social) | [mail](#e-mail) | [fund](#funding) |
-| [coin](#bitcoin) | [irc](#irc) | [img](#images) | [data](#database) | [feeds](#feeds) | [geo](#geographic) | [other](#other) |
+>[top](#services) | [proxy](#proxy) | [core](#core) | [msg](#message) | [save](#storage) | [soc](#social) | [mail](#e-mail) | [fund](#funding) |
+| [coin](#bitcoin) | [irc](#irc) | [img](#image) | [data](#database) | [feed](#feed) | [geo](#geographic) | [other](#other) |
 
 Really Simple Syndication (RSS) feeds were released in 1999, 10 years after IRC; another text-only texting service.
 
@@ -797,8 +822,8 @@ Really Simple Syndication (RSS) feeds were released in 1999, 10 years after IRC;
 
 ## Geographic
 
->| [top](#services) | [proxy](#proxy) | [core](#core) | [msg](#messaging) | [save](#storage) | [soc](#social) | [mail](#e-mail) | [fund](#funding) |
-| [coin](#bitcoin) | [irc](#irc) | [img](#images) | [data](#database) | [feeds](#feeds) | [geo](#geographic) | [other](#other) |
+>[top](#services) | [proxy](#proxy) | [core](#core) | [msg](#message) | [save](#storage) | [soc](#social) | [mail](#e-mail) | [fund](#funding) |
+| [coin](#bitcoin) | [irc](#irc) | [img](#image) | [data](#database) | [feed](#feed) | [geo](#geographic) | [other](#other) |
 
 Simple mapping plus application programmer interfaces, useful for application development.
 
@@ -840,8 +865,8 @@ Simple mapping plus application programmer interfaces, useful for application de
 
 ## Other
 
->| [top](#services) | [proxy](#proxy) | [core](#core) | [msg](#messaging) | [save](#storage) | [soc](#social) | [mail](#e-mail) | [fund](#funding) |
-| [coin](#bitcoin) | [irc](#irc) | [img](#images) | [data](#database) | [feeds](#feeds) | [geo](#geographic) | [other](#other) |
+>[top](#services) | [proxy](#proxy) | [core](#core) | [msg](#message) | [save](#storage) | [soc](#social) | [mail](#e-mail) | [fund](#funding) |
+| [coin](#bitcoin) | [irc](#irc) | [img](#image) | [data](#database) | [feed](#feed) | [geo](#geographic) | [other](#other) |
 
 There are millions of other services available. These two didn’t fit in elsewhere and have some utility vs entertaining.
 
@@ -868,18 +893,38 @@ There are millions of other services available. These two didn’t fit in elsewh
 | Notes | Sign in as an`editor` |
 | | Millions of searchable articles |
 
+### WordPress
+
+| -----:|:----- |
+| Login | `https://www.wordpress.com/login` |
+| Home | `https://www.wordpress.com/username` |
+| User | `username` |
+| Auth | `Pass*Word...` |
+| Note | app **fails** to connect over Tor |
+
+### MailChimp
+
+| -----:|:----- |
+| Login | `https://login.mailchimp.com/` |
+| Home | `https://us17.admin.mailchimp.com/account/profile/` |
+| User | `username` |
+| Auth | `Pass*Word...` |
+| Notes | Links to Twitter |
+| | *Google Voice* |
+
 # Local
 
->| [top](#opsec) | [dev](#devices) | [priv](#privacy) | [svc](#services) | [local](#local) | [search](#search) | [guide](#guides) | [bad](#broken)
+>[top](#appendices) | [devices](#devices) | [privacy](#privacy) | [services](#services) | [local](#local) | [compile](#compiler) 
+>[domain](#domain) | [search](#search) | [library](#library) | [broken](#broken)
 
 Note: To access Device "Developer" mode - select Settings, System, Phone, 7x tap on build number.
 
 It is recommended that you register all local apps with Orbot (VPN). Some apps may secretly call back to the mother ship.
 
-## Connections
+## Connection
 
->| [top](#local) | [conn](#connections) | [wall](#firewalls) | [edit](#editors) | [files](#files) |
-| [hack](#hacker) | [term](#terminals) | [virus](#anti-virus) | [code](#compiler) | [auth](#authentication) | [hash](#hashes)
+>[top](#local) | [conn](#connection) | [wall](#firewall) | [edit](#editor) | [files](#files) |
+| [hack](#hacker) | [term](#terminal) | [virus](#anti-virus) | [code](#compiler) | [auth](#authentication) | [hash](#hash)
 
 A few apps that give you access to connectivity info.
 
@@ -911,10 +956,10 @@ A few apps that give you access to connectivity info.
 | Play | `id=com.ubnt.usurvey` |
 | Note | Wi-Fi signal analysis and scanner |
 
-## Firewalls
+## Firewall
 
->| [top](#local) | [conn](#connections) | [wall](#firewalls) | [edit](#editors) | [files](#files) |
-| [hack](#hacker) | [term](#terminals) | [virus](#anti-virus) | [code](#compiler) | [auth](#authentication) | [hash](#hashes)
+>[top](#local) | [conn](#connection) | [wall](#firewall) | [edit](#editor) | [files](#files) |
+| [hack](#hacker) | [term](#terminal) | [virus](#anti-virus) | [code](#compiler) | [auth](#authentication) | [hash](#hash)
 
 Without`root`firewall apps are limited to proxying.
 
@@ -923,19 +968,19 @@ Without`root`firewall apps are limited to proxying.
 | | |
 | ---:| --- |
 | Play | `id=app.greyshirts.firewall` |
-| Notes | IP Tables internet security, no`root` |
+| Notes | IP Tables internet security, no `root`  |
 
 ### Dataguard Firewall
 
 | | |
 | ---:| --- |
 | Play | `id=com.fulldive.extension.dataguard` |
-| Note | IP Tables internet security, no`root` |
+| Note | IP Tables internet security, no `root`  |
 
 ## Encryption
 
->| [top](#local) | [conn](#connections) | [wall](#firewalls) | [edit](#editors) | [files](#files) |
-| [hack](#hacker) | [term](#terminals) | [virus](#anti-virus) | [code](#compiler) | [auth](#authentication) | [hash](#hashes)
+>[top](#local) | [conn](#connection) | [wall](#firewall) | [edit](#editor) | [files](#files) |
+| [hack](#hacker) | [term](#terminal) | [virus](#anti-virus) | [code](#compiler) | [auth](#authentication) | [hash](#hash)
 
 Places a selected file in an encrypted folder (vault).
 
@@ -955,8 +1000,8 @@ Places a selected file in an encrypted folder (vault).
 
 ## Authentication
 
->| [top](#local) | [conn](#connections) | [wall](#firewalls) | [edit](#editors) | [files](#files) |
-| [hack](#hacker) | [term](#terminals) | [virus](#anti-virus) | [code](#compiler) | [auth](#authentication) | [hash](#hashes)
+>[top](#local) | [conn](#connection) | [wall](#firewall) | [edit](#editor) | [files](#files) |
+| [hack](#hacker) | [term](#terminal) | [virus](#anti-virus) | [code](#compiler) | [auth](#authentication) | [hash](#hash)
 
 ### Authenticator
 
@@ -972,10 +1017,10 @@ Places a selected file in an encrypted folder (vault).
 | Play | `id=com.authy.authy` |
 | Note | cryptographic tools |
 
-## Hashes
+## Hash
 
->| [top](#local) | [conn](#connections) | [wall](#firewalls) | [edit](#editors) | [files](#files) |
-| [hack](#hacker) | [term](#terminals) | [virus](#anti-virus) | [code](#compiler) | [auth](#authentication) | [hash](#hashes)
+>[top](#local) | [conn](#connection) | [wall](#firewall) | [edit](#editor) | [files](#files) |
+| [hack](#hacker) | [term](#terminal) | [virus](#anti-virus) | [code](#compiler) | [auth](#authentication) | [hash](#hash)
 
 ### Hash Droid
 
@@ -991,10 +1036,10 @@ Places a selected file in an encrypted folder (vault).
 | Play | `id=com.nitramite.cryptography` |
 | Note | cryptographic tools |
 
-## Editors
+## Editor
 
->| [top](#local) | [conn](#connections) | [wall](#firewalls) | [edit](#editors) | [files](#files) |
-| [hack](#hacker) | [term](#terminals) | [virus](#anti-virus) | [code](#compiler) | [auth](#authentication) | [hash](#hashes)
+>[top](#local) | [conn](#connection) | [wall](#firewall) | [edit](#editor) | [files](#files) |
+| [hack](#hacker) | [term](#terminal) | [virus](#anti-virus) | [code](#compiler) | [auth](#authentication) | [hash](#hash)
 
 A few apps that enable you to edit “doc” and “txt” files.
 
@@ -1026,10 +1071,10 @@ A few apps that enable you to edit “doc” and “txt” files.
 | Play | `id=com.---- |
 | Note | Sophisticated code editor |
 
-## Terminals
+## Terminal
 
->| [top](#local) | [conn](#connections) | [wall](#firewalls) | [edit](#editors) | [files](#files) |
-| [hack](#hacker) | [term](#terminals) | [virus](#anti-virus) | [code](#compiler) | [auth](#authentication) | [hash](#hashes)
+>[top](#local) | [conn](#connection) | [wall](#firewall) | [edit](#editor) | [files](#files) |
+| [hack](#hacker) | [term](#terminal) | [virus](#anti-virus) | [code](#compiler) | [auth](#authentication) | [hash](#hash)
 
 Command-line Linux interface.
 
@@ -1049,8 +1094,8 @@ Command-line Linux interface.
 
 ## Hacker
 
->| [top](#local) | [conn](#connections) | [wall](#firewalls) | [edit](#editors) | [files](#files) |
-| [hack](#hacker) | [term](#terminals) | [virus](#anti-virus) | [code](#compiler) | [auth](#authentication) | [hash](#hashes)
+>[top](#local) | [conn](#connection) | [wall](#firewall) | [edit](#editor) | [files](#files) |
+| [hack](#hacker) | [term](#terminal) | [virus](#anti-virus) | [code](#compiler) | [auth](#authentication) | [hash](#hash)
 
 Two hacker-ish tools.
 
@@ -1062,14 +1107,15 @@ Two hacker-ish tools.
 | Note | Alternative keyboard for coders |
 
 ### BusyBox
-
-Play	NA
-| Note | Linux tools, shell,`root`required |
+| | |
+| ---:| --- |
+| Play | 	NA |
+| Note | Linux tools, shell, `root` required |
 
 ## Files
 
->| [top](#local) | [conn](#connections) | [wall](#firewalls) | [edit](#editors) | [files](#files) |
-| [hack](#hacker) | [term](#terminals) | [virus](#anti-virus) | [code](#compiler) | [auth](#authentication) | [hash](#hashes)
+>[top](#local) | [conn](#connection) | [wall](#firewall) | [edit](#editor) | [files](#files) |
+| [hack](#hacker) | [term](#terminal) | [virus](#anti-virus) | [code](#compiler) | [auth](#authentication) | [hash](#hash)
 
 ### File Converter
 
@@ -1094,8 +1140,8 @@ Play	NA
 
 ## Anti-virus
 
->| [top](#local) | [conn](#connections) | [wall](#firewalls) | [edit](#editors) | [files](#files) |
-| [hack](#hacker) | [term](#terminals) | [virus](#anti-virus) | [code](#compiler) | [auth](#authentication) | [hash](#hashes)
+>[top](#local) | [conn](#connection) | [wall](#firewall) | [edit](#editor) | [files](#files) |
+| [hack](#hacker) | [term](#terminal) | [virus](#anti-virus) | [code](#compiler) | [auth](#authentication) | [hash](#hash)
 
 Don’t download unknown files from unknown sources.
 
@@ -1136,63 +1182,101 @@ Don’t download unknown files from unknown sources.
 | Note | Established anti-virus app and scanner |
 | | Free **trial** |
 
-## Compiler
+# Compiler
 
->| [top](#local) | [conn](#connections) | [wall](#firewalls) | [edit](#editors) | [files](#files) |
-| [hack](#hacker) | [term](#terminals) | [virus](#anti-virus) | [code](#compiler) | [auth](#authentication) | [hash](#hashes)
+>[top](#appendices) | [devices](#devices) | [privacy](#privacy) | [services](#services) | [local](#local) | [compile](#compiler) 
+>[domain](#domain) | [search](#search) | [library](#library) | [broken](#broken)
 
-### OnePercent Java Compile
+## OnePercent Java Compile
 
 | | |
 | ---:| --- |
 | Play | `id=club.onepercent.java_compiler` |
 | Note | Edit, Compile, Install APK |
 
-### OnePercent PHP Compiler
+## OnePercent PHP Compiler
 
 | | |
 | ---:| --- |
 | Play | `id=club.onepercent.php_compiler` |
 | Note | Edit, Compile, Install APK |
 
-### QuarksBytes Java IDE
+## QuarksBytes Java IDE
 
 | | |
 | ---:| --- |
 | Play | `id=org.quarksjava.java_ide` |
 | Note | Edit, Compile, Install APK |
 
-### QuarksBytes PERL IDE
+## QuarksBytes PERL IDE
 
 | | |
 | ---:| --- |
 | Play | `id=org.quarksperl.perl_ide` |
 | Note | Edit, Compile, Install APK |
 
-### Code Runner
+## Code Runner
 
 | | |
 | ---:| --- |
 | Play | `id=yavuzomar.coderunner` |
 | Note | Edit, Compile, Install APK |
 
-### Code Assist
+## Code Assist
 
 | | |
 | ---:| --- |
 | Play | `id=com.tyron.code` |
 | Note | Edit, Compile, Install APK |
 
-### Java Compiler
+## Java Compiler
 
 | | |
 | ---:| --- |
 | Play | `id=com.techbajao.javacompiler` |
 | Note | Edit, Compile, Install APK |
 
+# Domain
+
+>[top](#appendices) | [devices](#devices) | [privacy](#privacy) | [services](#services) | [local](#local) | [compile](#compiler) 
+>[domain](#domain) | [search](#search) | [library](#library) | [broken](#broken)
+
+## NameCheap
+
+| -----:|:----- |
+| Login | `https://www.namecheap.com/myaccount/login` |
+| Home | `https://www.namecheap.com` |
+| User | `username` |
+| Auth | `Pass*Word...` |
+| Recov | `username@yourmail.com` |
+| PIN | NUMBER |
+| Note | **fails** to auth over Tor, use app |
+
+## GoDaddy
+
+| -----:|:----- |
+| Login | `https://account.godaddy.com` |
+| Home | `https://www.godaddy.com` |
+| User | `username@yourmail.com` |
+| Auth | `Pass*Word...` |
+| Recov | NUMBER |
+| Acct | NUMBER |
+| Notes | **fails** to connect over Tor |
+| | Login works with Chrome over Orbot |
+
+## Domain.com
+
+| -----:|:----- |
+| Login | `https://www1.domain.com/secure/login.bml` |
+| Home | `https://www.domain.com` |
+| User | `username@yourmail.com` |
+| Auth | `Pass*Word...` |
+| Recov | Buy first, no acct |
+
 # Search
 
->| [top](#opsec) | [dev](#devices) | [priv](#privacy) | [svc](#services) | [local](#local) | [search](#search) | [guide](#guides) | [bad](#broken)
+>[top](#appendices) | [devices](#devices) | [privacy](#privacy) | [services](#services) | [local](#local) | [compile](#compiler) 
+>[domain](#domain) | [search](#search) | [library](#library) | [broken](#broken)
 
 ## Unstructured
 
@@ -1201,7 +1285,7 @@ Don’t download unknown files from unknown sources.
 | | |
 | ---:| --- |
 | Play | `id=com.duckduckgo.mobile.android` |
-| Home |` https://www.duckduckgo.com` |
+| Home | ` https://www.duckduckgo.com` |
 | Notes | Comparable to Google search |
 | | No tracking or data retention |
 | | Has an Onion web address, through Tor |
@@ -1212,7 +1296,7 @@ Don’t download unknown files from unknown sources.
 | | |
 | ---:| --- |
 | Play | `com.google.android.googlequicksearchbox` |
-| Home |` https://www.google.com` |
+| Home | ` https://www.google.com` |
 | Notes | Google search over Tor is anonymous |
 | | Tracking/data retention to anon. exit node |
 | | May have Onion web address, through Tor |
@@ -1223,7 +1307,7 @@ Don’t download unknown files from unknown sources.
 | | |
 | ---:| --- |
 | Play | `id=com.microsoft.bing` |
-| Home |` https://www.bing.com` |
+| Home | ` https://www.bing.com` |
 | Note | Bing search over Tor is anonymous |
 
 ### Yahoo Search
@@ -1231,7 +1315,7 @@ Don’t download unknown files from unknown sources.
 | | |
 | ---:| --- |
 | Play | `id=com.yahoo.mobile.client.android.search` |
-| Home |` https://search.yahoo.com` |
+| Home | ` https://search.yahoo.com` |
 | Note | Yahoo! search over Tor is anonymous |
 
 ## Structured
@@ -1241,7 +1325,7 @@ Don’t download unknown files from unknown sources.
 | | |
 | ---:| --- |
 | Play | `id=org.wikipedia` |
-| Home |` https://en.wikipedia.com` |
+| Home | ` https://en.wikipedia.com` |
 | Notes | Technically not a search engine |
 | | Millions of searchable articles |
 | | Peer-to-peer cross referenced articles |
@@ -1254,7 +1338,7 @@ Don’t download unknown files from unknown sources.
 | | |
 | ---:| --- |
 | Play | `id=com.quora.android` |
-| Home |` https://www.quora.com` |
+| Home | ` https://www.quora.com` |
 | Notes | Technically not a search engine |
 | | Thousands of searchable questions |
 | | Peer-to-peer answered questions |
@@ -1266,19 +1350,20 @@ Don’t download unknown files from unknown sources.
 | | |
 | ---:| --- |
 | Play | `id=org.craigslist.craigslistmobile` |
-| Home |` https://www.craigslist.org` |
+| Home | ` https://www.craigslist.org` |
 | Notes | Peer-to-peer resource searches |
 
-# Guides
+# Library
 
->| [top](#opsec) | [dev](#devices) | [priv](#privacy) | [svc](#services) | [local](#local) | [search](#search) | [guide](#guides) | [bad](#broken)
+>[top](#appendices) | [devices](#devices) | [privacy](#privacy) | [services](#services) | [local](#local) | [compile](#compiler) 
+>[domain](#domain) | [search](#search) | [library](#library) | [broken](#broken)
 
 ### Wikipedia
 
 | | |
 | ---:| --- |
 | Play | `id=org.wikipedia` |
-| Home |` https://en.wikipedia.com` |
+| Home | ` https://en.wikipedia.com` |
 | Note | Millions of searchable articles |
 | Notes | Cross referenced to other articles |
 | | Extensive footnotes to print/on-line resources |
@@ -1290,7 +1375,7 @@ Don’t download unknown files from unknown sources.
 | | |
 | ---:| --- |
 | Play | web only |
-| Home |` https://nolo.com` |
+| Home | ` https://nolo.com` |
 | Notes | Hundreds of searchable legal articles |
 | | Dozens of books for sale |
 
@@ -1299,7 +1384,7 @@ Don’t download unknown files from unknown sources.
 | | |
 | ---:| --- |
 | Play | web only |
-| Home |` https://medlineplus.gov` |
+| Home | ` https://medlineplus.gov` |
 | Notes | World's largest medical library, on-line |
 | | US National Institutes of Health (NIH) |
 
@@ -1337,7 +1422,8 @@ Don’t download unknown files from unknown sources.
 
 # Broken
 
->| [top](#opsec) | [dev](#devices) | [priv](#privacy) | [svc](#services) | [local](#local) | [search](#search) | [guide](#guides) | [bad](#broken)
+>[top](#appendices) | [devices](#devices) | [privacy](#privacy) | [services](#services) | [local](#local) | [compile](#compiler) 
+>[domain](#domain) | [search](#search) | [library](#library) | [broken](#broken)
 
 A growing list of apps that don’t work anonymously, but it would be nice if they did.
 
@@ -1346,7 +1432,7 @@ A growing list of apps that don’t work anonymously, but it would be nice if th
 | | |
 | ---:| --- |
 | Play | `id=com.yahoo.mobile.client.android.mail` |
-| Home |` https://yahoo.com` |
+| Home | ` https://yahoo.com` |
 | Text | Google Voice rejected |
 
 ### Flickr
@@ -1354,7 +1440,7 @@ A growing list of apps that don’t work anonymously, but it would be nice if th
 | | |
 | ---:| --- |
 | Play | `id=com.flickr.android` |
-| Home |` https://www.flickr.com` |
+| Home | ` https://www.flickr.com` |
 | Note | login loop on app, Tor / CAPTCHA |
 
 ### LinkedIn
@@ -1362,7 +1448,7 @@ A growing list of apps that don’t work anonymously, but it would be nice if th
 | | |
 | ---:| --- |
 | Play | `id=com.linkedin.android` |
-| Home |` https://www.linkedin.com` |
+| Home | ` https://www.linkedin.com` |
 | Note | account restricted, photo ID required |
 
 ### Trademarks
@@ -1370,7 +1456,7 @@ A growing list of apps that don’t work anonymously, but it would be nice if th
 | | |
 | ---:| --- |
 | Play	| web only |
-| Home |` https://www.uspto.gov` |
+| Home | ` https://www.uspto.gov` |
 | Note | Government photo ID required |
 
 ### Patents
@@ -1378,7 +1464,7 @@ A growing list of apps that don’t work anonymously, but it would be nice if th
 | | |
 | ---:| --- |
 | Play	| web only |
-| Home |` https://www.uspto.gov` |
+| Home | ` https://www.uspto.gov` |
 | Note | Government photo ID required |
 
 ### Quora
@@ -1410,7 +1496,7 @@ A growing list of apps that don’t work anonymously, but it would be nice if th
 | | |
 | ---:| --- |
 | Play | `id=com.facebook.katana` |
-| Home |` https://www.facebook.com` |
+| Home | ` https://www.facebook.com` |
 | Note | Not an anonymous service |
 
 ### TikTok
@@ -1418,6 +1504,6 @@ A growing list of apps that don’t work anonymously, but it would be nice if th
 | | |
 | ---:| --- |
 | Play | `id=com.zhiliaoapp.musically` |
-| Home |` https://www.tiktok.com` |
+| Home | ` https://www.tiktok.com` |
 | Note | Not an anonymous service |
 
