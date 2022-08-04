@@ -1,6 +1,7 @@
 
-| ---:| --- | --- |
-| Phone | Code | Description |
+|   |  |   | 
+|:----- |:-----|:----| 
+| Code| Phone | Description |
 | 5689\#\*990\# | LG | Sprint Hidden Menu |
 | 3845\#\*855\# | LG | International Models Hidden Menu |
 | 3845\#\*851\# | T-Mobile LG | Hidden Menu |
@@ -144,13 +145,35 @@
 | \#\#778 |  Generic | >call; Brings up Epst menu |
 | \#\#7764726 |  Motorola | Hidden service menu |
 | \#\#228378 |  Motorola Droid LG | >send; Verizon Hidden Menu |
-
-
-
+| \*\#301279\# |  Motorola | HSDPA HSUPA Control |
+| \*\#273283\*255\*3282\*\# |  Generic | Data create menu |
+| \*\#2683662\# |  Samsung | Displays advanced service mode |
+| \*\#2663\# |  Samsung | Displays advanced firmware version men | \*\#\*\#1472365\#\*\#\* |  Generic | Quick GPS Test |
+| \*\#\*\#1472365\#\*\#\* |  Sony | Used for a quick GPS test |
+| \*\#\*\#1234\#\*\#\* |  Generic | PDA and Phone firmware information |
+| \*\#\*\#1234\#\*\#\* |  Sony | PDA and Phone firmware information |
+| \*\#\*\#1111\#\*\#\* |  Generic | FTA Software version |
+| \*\#\*\#1111\#\*\#\* |  Motorola | FTA Software version |
+| \*\#\*\#1111\#\*\#\* |  Sony | FTA Software version |
+| \*\#\*\#0842\#\*\#\* |  Generic | Vibration and Backlight test |
+| \*\#\*\#0842\#\*\#\* |  Motorola | Wireless LAN Test |
+| \*\#\*\#0842\#\*\#\* |  Sony | Vibration and Backlight test |
+| \*\#\*\#0673\#\*\#\* |  Generic | Audio Test |
+| \*\#\*\#0588\#\*\#\* |  Sony | Proximity sensor test |
+| \*\#\*\#0673\#\*\#\* | Generic | To test Audio of Xperia U | 
+| \*\#\*\#0588\#\*\#\* |  Sony | Proximity sensor test |
+| \*\#\*\#0289\#\*\#\* |  Generic | Audio Test |
+| \*\#\*\#0289\#\*\# \* |  Sony | Audio Test |
+| \*\#\*\#0283\#\*\#\* |  Generic | Packet Loopback Test |
+| \*\#\*\#0283\#\*\#\* |  Sony | Packet Loopback Test |
+| \*\#\*\#0\*\#\*\#\* |  Generic | LCD test |
+| \#\#778 |  Generic | >call; Brings up Epst menu |
+| \#\#7764726 |  Motorola | Hidden service menu |
+| \#\#228378 |  Motorola Droid LG | >send; Verizon Hidden Menu |
 | \*\#301279\# |  Motorola | HSDPA/HSUPA Control |
 | \*\#273283\*255\*3282\*\# |  Generic | Data create menu |
 | \*\#2683662\# |  Samsung | Displays advanced service mode |
-| \*\#2663\# |  Samsung | Displays advanced firmware version menu |
+| \*\#2663\# |  Samsung | Displays advanced firmware version menu | u |
 | \*\#2263\# |  Generic | RF band selection |
 | \*\#1234\# |  OnePlus | software version |
 | \*\#1234\# |  Samsung | software version |
@@ -257,7 +280,6 @@
 | \#\#778 |  Generic | >call; Brings up Epst menu |
 | \#\#7764726 |  Motorola | Hidden service menu |
 | \#\#228378 |  Motorola Droid LG | >send; Verizon Hidden Menu |
-
 | *#2683662# |  Samsung | Displays advanced service mode |
 | *#2663# |  Samsung | Displays advanced firmware version menu |
 | *#2263# |  Generic | RF band selection |
