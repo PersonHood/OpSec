@@ -207,18 +207,22 @@ Privacy protection is a habit, an often repeated To do... list. A secure device 
 >[top](#appendices) | [devices](#devices) | [privacy](#privacy) | [services](#services) | [local](#local) | [compile](#compiler) 
 >[domain](#domain) | [search](#search) | [library](#library) | [broken](#broken)
 
-Note: Most service providers have both web and app interfaces. The listed Google Play Store links are abbreviated to `id=`.
+Note: Most service providers have both web and app interfaces. 
 
-This presumes the full URL includes:
+The listed Google `Play` Store links are abbreviated to **`id=`**. This presumes the full URL includes:
 
 >`https://play.google.com/store/apps/details?`
+
+The listed `F-Droid` links are abbreviated to **`/...`** This presumes the full URL includes:
+
+>`https://f-droid.org/en/packages/`
 
 Whenever possible, 2 or more app/services are listed. Try out each and pick the one that fits best.
 
 ## Proxy
 
->[top](#services) | [proxy](#proxy) | [core](#core) | [msg](#message) | [save](#storage) | [soc](#social) | [mail](#e-mail) | [fund](#funding) |
-| [coin](#bitcoin) | [irc](#irc) | [img](#image) | [data](#database) | [feed](#feed) | [geo](#geographic) | [other](#other) |
+>[top](#services) | [proxy](#proxy) | [core](#core) | [msg](#message) | [save](#storage) | [soc](#social) | [mail](#e-mail) 
+> [fund](#funding) | [coin](#bitcoin) | [irc](#irc) | [img](#image) | [data](#database) | [feed](#feed) | [geo](#geographic) | [other](#other)
 
 Unlike the rest of the services and apps listed, the first two provide a low-level anonymous connection to the Internet.
 
@@ -237,6 +241,20 @@ An added layer of anonymity may be achieved by employing`Onion`addresses in the 
 | | Launch Tor and tap the Connect button |
 | | The VPN hides your device IP and location |
 | | Link to ShowMyIP.com to test |
+| | **Bug** no uploading files from device |
+
+### PrivacyBrowser
+
+| | |
+| ---:| --- |
+| FDroid | `com.stoutner.privacybrowser.standard` |
+| Home | `https://www.stoutner.com/privacy-browser-android` |
+| Notes | Designed to run over `Orbot` |
+| | No registration nor username required |
+| | Launch `Orbot` and select PrivacyBrowser |
+| | The `Orbot` hides your device IP and location |
+| | Link to ShowMyIP.com to test |
+| | **Bug** upload files one at a time bin or txt |
 
 ### Orbot
 
@@ -252,8 +270,8 @@ An added layer of anonymity may be achieved by employing`Onion`addresses in the 
 
 ## Core
 
->[top](#services) | [proxy](#proxy) | [core](#core) | [msg](#message) | [save](#storage) | [soc](#social) | [mail](#e-mail) | [fund](#funding) |
-| [coin](#bitcoin) | [irc](#irc) | [img](#image) | [data](#database) | [feed](#feed) | [geo](#geographic) | [other](#other) |
+>[top](#services) | [proxy](#proxy) | [core](#core) | [msg](#message) | [save](#storage) | [soc](#social) | [mail](#e-mail) 
+> [fund](#funding) | [coin](#bitcoin) | [irc](#irc) | [img](#image) | [data](#database) | [feed](#feed) | [geo](#geographic) | [other](#other)
 
 Most apps either primarily or secondarily connect to the Internet. Few fail to connect to the internet, though some apps are functional in airplane mode with Wi-Fi off. Primary connections include messaging and browsing. Secondary connections include ad delivery and spying. Most device users require a few common apps and they default to pre-installed apps, with default Settings. Always thoroughly update app Settings.
 
@@ -309,8 +327,8 @@ Getting a separate burner phone and/or SIM / eSIM reduces connections to your ol
 
 ## Message
 
->[top](#services) | [proxy](#proxy) | [core](#core) | [msg](#message) | [save](#storage) | [soc](#social) | [mail](#e-mail) | [fund](#funding) |
-| [coin](#bitcoin) | [irc](#irc) | [img](#image) | [data](#database) | [feed](#feed) | [geo](#geographic) | [other](#other) |
+>[top](#services) | [proxy](#proxy) | [core](#core) | [msg](#message) | [save](#storage) | [soc](#social) | [mail](#e-mail) 
+> [fund](#funding) | [coin](#bitcoin) | [irc](#irc) | [img](#image) | [data](#database) | [feed](#feed) | [geo](#geographic) | [other](#other)
 
 Messaging between individuals and groups is provided in multiple contexts either stand-alone or as part of a larger system (e.g., gaming also includes messaging).
 
@@ -359,8 +377,8 @@ Messaging between individuals and groups is provided in multiple contexts either
 
 ## Storage
 
->[top](#services) | [proxy](#proxy) | [core](#core) | [msg](#message) | [save](#storage) | [soc](#social) | [mail](#e-mail) | [fund](#funding) |
-| [coin](#bitcoin) | [irc](#irc) | [img](#image) | [data](#database) | [feed](#feed) | [geo](#geographic) | [other](#other) |
+>[top](#services) | [proxy](#proxy) | [core](#core) | [msg](#message) | [save](#storage) | [soc](#social) | [mail](#e-mail) 
+> [fund](#funding) | [coin](#bitcoin) | [irc](#irc) | [img](#image) | [data](#database) | [feed](#feed) | [geo](#geographic) | [other](#other)
 
 The largest service provides offer "Office Suites" where files may be stored. Standalone file storage provides some advantages regarding anonymity.
 
@@ -435,8 +453,8 @@ The largest service provides offer "Office Suites" where files may be stored. St
 
 ## Social
 
->[top](#services) | [proxy](#proxy) | [core](#core) | [msg](#message) | [save](#storage) | [soc](#social) | [mail](#e-mail) | [fund](#funding) |
-| [coin](#bitcoin) | [irc](#irc) | [img](#image) | [data](#database) | [feed](#feed) | [geo](#geographic) | [other](#other) |
+>[top](#services) | [proxy](#proxy) | [core](#core) | [msg](#message) | [save](#storage) | [soc](#social) | [mail](#e-mail) 
+> [fund](#funding) | [coin](#bitcoin) | [irc](#irc) | [img](#image) | [data](#database) | [feed](#feed) | [geo](#geographic) | [other](#other)
 
 Social, groups, communities, and forums.
 
@@ -515,8 +533,8 @@ Ignoring the 500lb gorilla, these services offer a balance between functionality
 
 ## E-mail
 
->[top](#services) | [proxy](#proxy) | [core](#core) | [msg](#message) | [save](#storage) | [soc](#social) | [mail](#e-mail) | [fund](#funding) |
-| [coin](#bitcoin) | [irc](#irc) | [img](#image) | [data](#database) | [feed](#feed) | [geo](#geographic) | [other](#other) |
+>[top](#services) | [proxy](#proxy) | [core](#core) | [msg](#message) | [save](#storage) | [soc](#social) | [mail](#e-mail) 
+> [fund](#funding) | [coin](#bitcoin) | [irc](#irc) | [img](#image) | [data](#database) | [feed](#feed) | [geo](#geographic) | [other](#other)
 
 There are four types of anonymous e-mail:
 
@@ -594,8 +612,8 @@ Trade-offs: some services do not support file attachments, where links to anonym
 
 ## Funding
 
->[top](#services) | [proxy](#proxy) | [core](#core) | [msg](#message) | [save](#storage) | [soc](#social) | [mail](#e-mail) | [fund](#funding) |
-| [coin](#bitcoin) | [irc](#irc) | [img](#image) | [data](#database) | [feed](#feed) | [geo](#geographic) | [other](#other) |
+>[top](#services) | [proxy](#proxy) | [core](#core) | [msg](#message) | [save](#storage) | [soc](#social) | [mail](#e-mail) 
+> [fund](#funding) | [coin](#bitcoin) | [irc](#irc) | [img](#image) | [data](#database) | [feed](#feed) | [geo](#geographic) | [other](#other)
 
 This is not an anonymous activity. However, as an anonymous user you may want to crypto-contribute.
 
@@ -635,8 +653,8 @@ This is not an anonymous activity. However, as an anonymous user you may want to
 
 ## Bitcoin
 
->[top](#services) | [proxy](#proxy) | [core](#core) | [msg](#message) | [save](#storage) | [soc](#social) | [mail](#e-mail) | [fund](#funding) |
-| [coin](#bitcoin) | [irc](#irc) | [img](#image) | [data](#database) | [feed](#feed) | [geo](#geographic) | [other](#other) |
+>[top](#services) | [proxy](#proxy) | [core](#core) | [msg](#message) | [save](#storage) | [soc](#social) | [mail](#e-mail) 
+> [fund](#funding) | [coin](#bitcoin) | [irc](#irc) | [img](#image) | [data](#database) | [feed](#feed) | [geo](#geographic) | [other](#other)
 
 ### Binance
 
@@ -673,8 +691,8 @@ This is not an anonymous activity. However, as an anonymous user you may want to
 
 ## IRC
 
->[top](#services) | [proxy](#proxy) | [core](#core) | [msg](#message) | [save](#storage) | [soc](#social) | [mail](#e-mail) | [fund](#funding) |
-| [coin](#bitcoin) | [irc](#irc) | [img](#image) | [data](#database) | [feed](#feed) | [geo](#geographic) | [other](#other) |
+>[top](#services) | [proxy](#proxy) | [core](#core) | [msg](#message) | [save](#storage) | [soc](#social) | [mail](#e-mail) 
+> [fund](#funding) | [coin](#bitcoin) | [irc](#irc) | [img](#image) | [data](#database) | [feed](#feed) | [geo](#geographic) | [other](#other)
 
 Internet Relay Chat was first introduced in 1988 and it still has a loyal following; a text-only “texting” service.
 
@@ -711,8 +729,8 @@ Internet Relay Chat was first introduced in 1988 and it still has a loyal follow
 
 ## Image
 
->[top](#services) | [proxy](#proxy) | [core](#core) | [msg](#message) | [save](#storage) | [soc](#social) | [mail](#e-mail) | [fund](#funding) |
-| [coin](#bitcoin) | [irc](#irc) | [img](#image) | [data](#database) | [feed](#feed) | [geo](#geographic) | [other](#other) |
+>[top](#services) | [proxy](#proxy) | [core](#core) | [msg](#message) | [save](#storage) | [soc](#social) | [mail](#e-mail) 
+> [fund](#funding) | [coin](#bitcoin) | [irc](#irc) | [img](#image) | [data](#database) | [feed](#feed) | [geo](#geographic) | [other](#other)
 
 Image may be stored wherever other files are stored, however these sites cross-sell image products and services.
 
@@ -742,8 +760,8 @@ Image may be stored wherever other files are stored, however these sites cross-s
 
 ## Database
 
->[top](#services) | [proxy](#proxy) | [core](#core) | [msg](#message) | [save](#storage) | [soc](#social) | [mail](#e-mail) | [fund](#funding) |
-| [coin](#bitcoin) | [irc](#irc) | [img](#image) | [data](#database) | [feed](#feed) | [geo](#geographic) | [other](#other) |
+>[top](#services) | [proxy](#proxy) | [core](#core) | [msg](#message) | [save](#storage) | [soc](#social) | [mail](#e-mail) 
+> [fund](#funding) | [coin](#bitcoin) | [irc](#irc) | [img](#image) | [data](#database) | [feed](#feed) | [geo](#geographic) | [other](#other)
 
 Cloud database servers may be of use in application development. A few providers offer limited free accounts.
 
@@ -782,8 +800,8 @@ Cloud database servers may be of use in application development. A few providers
 
 ## Feed
 
->[top](#services) | [proxy](#proxy) | [core](#core) | [msg](#message) | [save](#storage) | [soc](#social) | [mail](#e-mail) | [fund](#funding) |
-| [coin](#bitcoin) | [irc](#irc) | [img](#image) | [data](#database) | [feed](#feed) | [geo](#geographic) | [other](#other) |
+>[top](#services) | [proxy](#proxy) | [core](#core) | [msg](#message) | [save](#storage) | [soc](#social) | [mail](#e-mail) 
+> [fund](#funding) | [coin](#bitcoin) | [irc](#irc) | [img](#image) | [data](#database) | [feed](#feed) | [geo](#geographic) | [other](#other)
 
 Really Simple Syndication (RSS) feeds were released in 1999, 10 years after IRC; another text-only texting service.
 
@@ -822,8 +840,8 @@ Really Simple Syndication (RSS) feeds were released in 1999, 10 years after IRC;
 
 ## Geographic
 
->[top](#services) | [proxy](#proxy) | [core](#core) | [msg](#message) | [save](#storage) | [soc](#social) | [mail](#e-mail) | [fund](#funding) |
-| [coin](#bitcoin) | [irc](#irc) | [img](#image) | [data](#database) | [feed](#feed) | [geo](#geographic) | [other](#other) |
+>[top](#services) | [proxy](#proxy) | [core](#core) | [msg](#message) | [save](#storage) | [soc](#social) | [mail](#e-mail) 
+> [fund](#funding) | [coin](#bitcoin) | [irc](#irc) | [img](#image) | [data](#database) | [feed](#feed) | [geo](#geographic) | [other](#other)
 
 Simple mapping plus application programmer interfaces, useful for application development.
 
@@ -865,8 +883,8 @@ Simple mapping plus application programmer interfaces, useful for application de
 
 ## Other
 
->[top](#services) | [proxy](#proxy) | [core](#core) | [msg](#message) | [save](#storage) | [soc](#social) | [mail](#e-mail) | [fund](#funding) |
-| [coin](#bitcoin) | [irc](#irc) | [img](#image) | [data](#database) | [feed](#feed) | [geo](#geographic) | [other](#other) |
+>[top](#services) | [proxy](#proxy) | [core](#core) | [msg](#message) | [save](#storage) | [soc](#social) | [mail](#e-mail) 
+> [fund](#funding) | [coin](#bitcoin) | [irc](#irc) | [img](#image) | [data](#database) | [feed](#feed) | [geo](#geographic) | [other](#other)
 
 There are millions of other services available. These two didn’t fit in elsewhere and have some utility vs entertaining.
 
