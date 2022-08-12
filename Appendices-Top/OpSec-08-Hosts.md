@@ -6,6 +6,14 @@
 > [Overview](./OpSec-03-Overview.md) | [Definitions](./OpSec-04-Definitions.md) | [Memes](./OpSec-05-Memes.md) | [Admin](./OpSec-06-Admin.md) 
 > [TT4N](./OpSec-07-TT4N.md) | [Hosts](./OpSec-08-Hosts.md) | [Bibliography](./OpSec-99-Bibliography.md) 
 
-# Definitions
+ 
+# Hosts
 
-- OpSec-04-Definitions.md
+### [Pastebin.com](../Links/Pastebin.md)
+
+### [GitHub.com](../Links/GitHub.md)
+
+### [DropBox.com](../Links/DropBox.md)
+
+### [Tumblr.com](../Links/Tumblr.md)
+

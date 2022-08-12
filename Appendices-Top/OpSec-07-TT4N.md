@@ -6,6 +6,7 @@
 > [Overview](./OpSec-03-Overview.md) | [Definitions](./OpSec-04-Definitions.md) | [Memes](./OpSec-05-Memes.md) | [Admin](./OpSec-06-Admin.md) 
 > [TT4N](./OpSec-07-TT4N.md) | [Hosts](./OpSec-08-Hosts.md) | [Bibliography](./OpSec-99-Bibliography.md) 
 
-# Definitions
+# TT4N
 
-- OpSec-04-Definitions.md
+- OpSec-07-TT4N.md
+
