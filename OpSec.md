@@ -1,15 +1,14 @@
 [  this is a comment. ]::
 
-<link href="styles.css" rel="stylesheet"></link>
-
-### Appendices
+<link href="styles.css" rel="stylesheet"/>
 
 > [Appendices](./Appendices-Top/OpSec-00-Appendices.md) | [WTF](./Appendices-Top/OpSec-01-WTF.md) | [Motivate](./Appendices-Top/OpSec-02-Motivate.md) | [Overview](./Appendices-Top/OpSec-03-Overview.md) 
-> [Definitions](./Appendices-Top/OpSec-04-Definitions.md) | [Memes](./Appendices-Top/OpSec-05-Memes.md) | [Admin](./Appendices-Top/OpSec-06-Admin.md) | [TT4N](./Appendices-Top/OpSec-07-TT4N-v2.md) | [Bibliography](./Appendices-Top/OpSec-99-Bibliography.md) 
+> [Definitions](./Appendices-Top/OpSec-04-Definitions.md) | [Memes](./Appendices-Top/OpSec-05-Memes.md) | [Admin](./Appendices-Top/OpSec-06-Admin.md) 
+> [TT4N](./Appendices-Top/OpSec-07-TT4N.md) | [Hosts](./Appendices-Top/OpSec-08-Hosts.md) | [Bibliography](./Appendices-Top/OpSec-99-Bibliography.md) 
 
 # OpSec
 
->[top](#appendices) | [devices](#devices) | [privacy](#privacy) | [services](#services) | [local](#local) | [compile](#compiler) 
+>[top](#opsec) | [devices](#devices) | [privacy](#privacy) | [services](#services) | [local](#local) | [compile](#compiler) 
 >[domain](#domain) | [search](#search) | [library](#library) | [broken](#broken)
 
 Operational Security
@@ -112,7 +111,7 @@ This document indirectly asks questions that many do not know to ask. This docum
 
 # Devices
 
->[top](#appendices) | [devices](#devices) | [privacy](#privacy) | [services](#services) | [local](#local) | [compile](#compiler) 
+>[top](#opsec) | [devices](#devices) | [privacy](#privacy) | [services](#services) | [local](#local) | [compile](#compiler) 
 >[domain](#domain) | [search](#search) | [library](#library) | [broken](#broken)
 
 Devices are pervasive, 3+ per person…
@@ -155,7 +154,7 @@ Do this when disposing or selling a device:
 
 # Privacy
 
->[top](#appendices) | [devices](#devices) | [privacy](#privacy) | [services](#services) | [local](#local) | [compile](#compiler) 
+>[top](#opsec) | [devices](#devices) | [privacy](#privacy) | [services](#services) | [local](#local) | [compile](#compiler) 
 >[domain](#domain) | [search](#search) | [library](#library) | [broken](#broken)
 
 Privacy protection is a habit, an often repeated To do... list. A secure device may be rendered insecure with bad operational security habits. Do good, be inconsistent.
@@ -204,7 +203,7 @@ Privacy protection is a habit, an often repeated To do... list. A secure device 
 
 # Services
 
->[top](#appendices) | [devices](#devices) | [privacy](#privacy) | [services](#services) | [local](#local) | [compile](#compiler) 
+>[top](#opsec) | [devices](#devices) | [privacy](#privacy) | [services](#services) | [local](#local) | [compile](#compiler) 
 >[domain](#domain) | [search](#search) | [library](#library) | [broken](#broken)
 
 Note: Most service providers have both web and app interfaces. 
@@ -217,7 +216,7 @@ The listed `F-Droid` links are abbreviated to **`/...`** This presumes the full 
 
 >`https://f-droid.org/en/packages/`
 
-Whenever possible, 2 or more app/services are listed. Try out each and pick the one that fits best.
+Whenever possible, 2 or more apps/services are listed. Try out each and pick the one that fits best.
 
 ## Proxy
 
@@ -228,7 +227,7 @@ Unlike the rest of the services and apps listed, the first two provide a low-lev
 
 Tor and Orbot are transparent services that underlay other apps. Tor is a standalone combo that supports the Firefox browser, and Orbot anonymously redirects all registered apps' Internet traffic. In general, never connect the device to the Internet through the device’s data plan. Connect through public Wi-Fi, in airplane mode, using anonymous Tor and/or Orbot.
 
-An added layer of anonymity may be achieved by employing`Onion`addresses in the Tor browser. An`Onion`address is like a standard URL (`https://sitename.com`) recognized by Tor and directed to otherwise hidden web sites.
+An added layer of anonymity may be achieved by employing`Onion `addresses in the Tor browser. An`Onion `address is like a standard URL (`https://sitename.com`) recognized by Tor and directed to otherwise hidden web sites.
 
 ### Tor
 
@@ -908,7 +907,7 @@ There are millions of other services available. These two didn’t fit in elsewh
 | Login | `https://en.wikipedia.com/login` |
 | Home | `https://en.m.wikipedia.org/wiki/User:username` |
 | Recov | |
-| Notes | Sign in as an`editor` |
+| Notes | Sign in as an `editor` |
 | | Millions of searchable articles |
 
 ### WordPress
@@ -932,7 +931,7 @@ There are millions of other services available. These two didn’t fit in elsewh
 
 # Local
 
->[top](#appendices) | [devices](#devices) | [privacy](#privacy) | [services](#services) | [local](#local) | [compile](#compiler) 
+>[top](#opsec) | [devices](#devices) | [privacy](#privacy) | [services](#services) | [local](#local) | [compile](#compiler) 
 >[domain](#domain) | [search](#search) | [library](#library) | [broken](#broken)
 
 Note: To access Device "Developer" mode - select Settings, System, Phone, 7x tap on build number.
@@ -942,7 +941,7 @@ It is recommended that you register all local apps with Orbot (VPN). Some apps m
 ## Connection
 
 >[top](#local) | [conn](#connection) | [wall](#firewall) | [edit](#editor) | [files](#files) |
-| [hack](#hacker) | [term](#terminal) | [virus](#anti-virus) | [code](#compiler) | [auth](#authentication) | [hash](#hash)
+ [hack](#hacker) | [term](#terminal) | [virus](#anti-virus) | [code](#compiler) | [auth](#authentication) | [hash](#hash)
 
 A few apps that give you access to connectivity info.
 
@@ -977,9 +976,9 @@ A few apps that give you access to connectivity info.
 ## Firewall
 
 >[top](#local) | [conn](#connection) | [wall](#firewall) | [edit](#editor) | [files](#files) |
-| [hack](#hacker) | [term](#terminal) | [virus](#anti-virus) | [code](#compiler) | [auth](#authentication) | [hash](#hash)
+ [hack](#hacker) | [term](#terminal) | [virus](#anti-virus) | [code](#compiler) | [auth](#authentication) | [hash](#hash)
 
-Without`root`firewall apps are limited to proxying.
+Without `root `firewall apps are limited to proxying.
 
 ### NoRoot Firewall
 
@@ -998,7 +997,7 @@ Without`root`firewall apps are limited to proxying.
 ## Encryption
 
 >[top](#local) | [conn](#connection) | [wall](#firewall) | [edit](#editor) | [files](#files) |
-| [hack](#hacker) | [term](#terminal) | [virus](#anti-virus) | [code](#compiler) | [auth](#authentication) | [hash](#hash)
+ [hack](#hacker) | [term](#terminal) | [virus](#anti-virus) | [code](#compiler) | [auth](#authentication) | [hash](#hash)
 
 Places a selected file in an encrypted folder (vault).
 
@@ -1019,7 +1018,7 @@ Places a selected file in an encrypted folder (vault).
 ## Authentication
 
 >[top](#local) | [conn](#connection) | [wall](#firewall) | [edit](#editor) | [files](#files) |
-| [hack](#hacker) | [term](#terminal) | [virus](#anti-virus) | [code](#compiler) | [auth](#authentication) | [hash](#hash)
+ [hack](#hacker) | [term](#terminal) | [virus](#anti-virus) | [code](#compiler) | [auth](#authentication) | [hash](#hash)
 
 ### Authenticator
 
@@ -1038,7 +1037,7 @@ Places a selected file in an encrypted folder (vault).
 ## Hash
 
 >[top](#local) | [conn](#connection) | [wall](#firewall) | [edit](#editor) | [files](#files) |
-| [hack](#hacker) | [term](#terminal) | [virus](#anti-virus) | [code](#compiler) | [auth](#authentication) | [hash](#hash)
+ [hack](#hacker) | [term](#terminal) | [virus](#anti-virus) | [code](#compiler) | [auth](#authentication) | [hash](#hash)
 
 ### Hash Droid
 
@@ -1057,7 +1056,7 @@ Places a selected file in an encrypted folder (vault).
 ## Editor
 
 >[top](#local) | [conn](#connection) | [wall](#firewall) | [edit](#editor) | [files](#files) |
-| [hack](#hacker) | [term](#terminal) | [virus](#anti-virus) | [code](#compiler) | [auth](#authentication) | [hash](#hash)
+ [hack](#hacker) | [term](#terminal) | [virus](#anti-virus) | [code](#compiler) | [auth](#authentication) | [hash](#hash)
 
 A few apps that enable you to edit “doc” and “txt” files.
 
@@ -1082,7 +1081,7 @@ A few apps that enable you to edit “doc” and “txt” files.
 | Play | `id=com.foxdebug.acodefree` |
 | Note | Sophisticated code editor, GitHub link |
 
-### - - - -
+### - TBA - 
 
 | | |
 | ---:| --- |
@@ -1092,7 +1091,7 @@ A few apps that enable you to edit “doc” and “txt” files.
 ## Terminal
 
 >[top](#local) | [conn](#connection) | [wall](#firewall) | [edit](#editor) | [files](#files) |
-| [hack](#hacker) | [term](#terminal) | [virus](#anti-virus) | [code](#compiler) | [auth](#authentication) | [hash](#hash)
+ [hack](#hacker) | [term](#terminal) | [virus](#anti-virus) | [code](#compiler) | [auth](#authentication) | [hash](#hash)
 
 Command-line Linux interface.
 
@@ -1113,7 +1112,7 @@ Command-line Linux interface.
 ## Hacker
 
 >[top](#local) | [conn](#connection) | [wall](#firewall) | [edit](#editor) | [files](#files) |
-| [hack](#hacker) | [term](#terminal) | [virus](#anti-virus) | [code](#compiler) | [auth](#authentication) | [hash](#hash)
+ [hack](#hacker) | [term](#terminal) | [virus](#anti-virus) | [code](#compiler) | [auth](#authentication) | [hash](#hash)
 
 Two hacker-ish tools.
 
@@ -1133,7 +1132,7 @@ Two hacker-ish tools.
 ## Files
 
 >[top](#local) | [conn](#connection) | [wall](#firewall) | [edit](#editor) | [files](#files) |
-| [hack](#hacker) | [term](#terminal) | [virus](#anti-virus) | [code](#compiler) | [auth](#authentication) | [hash](#hash)
+ [hack](#hacker) | [term](#terminal) | [virus](#anti-virus) | [code](#compiler) | [auth](#authentication) | [hash](#hash)
 
 ### File Converter
 
@@ -1159,7 +1158,7 @@ Two hacker-ish tools.
 ## Anti-virus
 
 >[top](#local) | [conn](#connection) | [wall](#firewall) | [edit](#editor) | [files](#files) |
-| [hack](#hacker) | [term](#terminal) | [virus](#anti-virus) | [code](#compiler) | [auth](#authentication) | [hash](#hash)
+ [hack](#hacker) | [term](#terminal) | [virus](#anti-virus) | [code](#compiler) | [auth](#authentication) | [hash](#hash)
 
 Don’t download unknown files from unknown sources.
 
@@ -1202,7 +1201,7 @@ Don’t download unknown files from unknown sources.
 
 # Compiler
 
->[top](#appendices) | [devices](#devices) | [privacy](#privacy) | [services](#services) | [local](#local) | [compile](#compiler) 
+>[top](#opsec) | [devices](#devices) | [privacy](#privacy) | [services](#services) | [local](#local) | [compile](#compiler) 
 >[domain](#domain) | [search](#search) | [library](#library) | [broken](#broken)
 
 ## OnePercent Java Compile
@@ -1256,7 +1255,7 @@ Don’t download unknown files from unknown sources.
 
 # Domain
 
->[top](#appendices) | [devices](#devices) | [privacy](#privacy) | [services](#services) | [local](#local) | [compile](#compiler) 
+>[top](#opsec) | [devices](#devices) | [privacy](#privacy) | [services](#services) | [local](#local) | [compile](#compiler) 
 >[domain](#domain) | [search](#search) | [library](#library) | [broken](#broken)
 
 ## NameCheap
@@ -1293,7 +1292,7 @@ Don’t download unknown files from unknown sources.
 
 # Search
 
->[top](#appendices) | [devices](#devices) | [privacy](#privacy) | [services](#services) | [local](#local) | [compile](#compiler) 
+>[top](#opsec) | [devices](#devices) | [privacy](#privacy) | [services](#services) | [local](#local) | [compile](#compiler) 
 >[domain](#domain) | [search](#search) | [library](#library) | [broken](#broken)
 
 ## Unstructured
@@ -1373,7 +1372,7 @@ Don’t download unknown files from unknown sources.
 
 # Library
 
->[top](#appendices) | [devices](#devices) | [privacy](#privacy) | [services](#services) | [local](#local) | [compile](#compiler) 
+>[top](#opsec) | [devices](#devices) | [privacy](#privacy) | [services](#services) | [local](#local) | [compile](#compiler) 
 >[domain](#domain) | [search](#search) | [library](#library) | [broken](#broken)
 
 ### Wikipedia
@@ -1440,7 +1439,7 @@ Don’t download unknown files from unknown sources.
 
 # Broken
 
->[top](#appendices) | [devices](#devices) | [privacy](#privacy) | [services](#services) | [local](#local) | [compile](#compiler) 
+>[top](#opsec) | [devices](#devices) | [privacy](#privacy) | [services](#services) | [local](#local) | [compile](#compiler) 
 >[domain](#domain) | [search](#search) | [library](#library) | [broken](#broken)
 
 A growing list of apps that don’t work anonymously, but it would be nice if they did.
@@ -1525,3 +1524,4 @@ A growing list of apps that don’t work anonymously, but it would be nice if th
 | Home | ` https://www.tiktok.com` |
 | Note | Not an anonymous service |
 
+Copyleft 2022 - edit, reproduce, publish
