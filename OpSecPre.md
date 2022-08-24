@@ -8,7 +8,7 @@
 
 # PreOpSec
 
-*A semi-satiracle guide to secure device management.*
+*A semi-satyrical guide to secure device management.*
 
 **tl;dr**
 
@@ -31,7 +31,7 @@
 
 ## Contents
 
-- Global Nav Bar
+- OpSec Nav Bar
 - Local Title
 - Local Nav Bar
 - *This*
@@ -66,7 +66,9 @@ They should be.
   - write-capable devices are dangerous
 - write-only storage is **awesome**
 
-Devices should have owner-configurable *out-going* traffic filtering baked-in, publicized, with owner training *required*. No Apps required! 
+Devices should have owner-configurable *out-going* traffic filtering baked-in, publicized, with owner training *required*. 
+
+No Apps required! 
 
 > Limited `root`-level access permitted to device owners. 
 >**Ref:** IP Tables
@@ -83,7 +85,7 @@ One *failure* at *any* time is fatal.
 > And, a *pattern* of failures is a sign of total *idiocy* 
 > - why even bother
 > - IMHO
->    - Not that you are a *total* idiot 
+>    - Not that **you** are a *total* idiot 
 >    - *intentionally*
 >    - of course, IMHO
 
@@ -137,7 +139,7 @@ A few (dozen) *recommendations*:
   - Motorola
   - LG
   - Hitachi 
-  - Hawaie **SP?**
+  - Huawei
 - No Interconnected Devices
   - Vacuum Cleaner
   - Toilet Seat
@@ -160,36 +162,44 @@ A few (dozen) *recommendations*:
 
 - No Device Purchases Mailed
 - No In-person Device Registration
-- No Device Seller's Friends & Family Plans
+- No Device Seller's Friends & Family
 - No Recommending Device Sellers
 - No Reviewing Device Sellers
 - No Idiocy, "I've got a secret..."
-- No Telling Anything to Anyone, Blabbing
+- No Telling Anything to Anyone
 - No "Secrets" when two+ people know
 - No "But..."s, especially BFFs!
-   - Gossip
-   - Hater
-   - Revenge
-   - Rat
-   - Informant
+   - Gossip, that's why you hooked up
+   - Whim, drunk
+   - Hater, for a day
+   - Revenge, real hater
+   - Rat, your friend? Really?
+   - Informant, Not your fault
 
 ### Activation
 
 >Layer 0.3 BD
 
-- No Carrier SIM - IP Video, Voice, Texting, Apps
+- No Carrier SIM
+    - WiFi
+    - IP Video, Voice, Texting, Apps
 - No Burner SIM with Provider Accounts
 - No Burner SIM with Affiliate Accounts
-- No Single SIM - several
-- No Money Back - 100% *Doomed* to fail
+- No Single SIM 
+    - several
+- No Money Back
+   - 100% *Doomed* to fail
    - No last chance
    - Did you power up yet?
 - No Static IMEI
+   - Change Often
 - No Default Device Name
-- No Carrier Friends & Family Plans
-- No Recommending Carriers to Friends
+   - Change Often
+- No Carrier Friends & Family
+- No Recommending Carriers
 - No Reviewing Carriers
-- No Money Back - 100% *Doomed* to fail
+- No Money Back 
+   - 100% *Doomed* to fail
    - power up yet?
 
 ### System
@@ -197,9 +207,11 @@ A few (dozen) *recommendations*:
 >Layer 0.1 AD
 
 - No, no don't (*sigh*) - Power-up
-- No Commercial OS Repos
+- No Commercial OS Distros
    - ignoring *No USB cables*
-- No OS Repos with Bloatware
+- No OS Distros with Bloatware
+- No Journaling File Systems
+   - ext3, ext4, UFS, ZFS, Btrfs
 - No Proprietary Apps 
    - *FOSS only*
 - No *Trust me* Software
@@ -210,12 +222,15 @@ A few (dozen) *recommendations*:
 
 - See 0.3 BD
 - No Location Tracking, towers
-- No Bluetooth - neighbors
+- No Bluetooth
+   - neighbors
 - No GPS location
 - No Shared Printers
 - No e-Sharing Anything
 - No texting a friend
-- No selfies, **def** 
+   - *Doh!*
+- No selfies
+   - **def** 
 - No idiocy
    - like that needs to be said
    - still reading?
@@ -224,22 +239,29 @@ A few (dozen) *recommendations*:
 
 >Layer 1.1
 
-- No udp
-- No tcp
+- No Open udp Ports
+   - 65,535
+   - Datagrams only
+- No Open tcp Ports
+   - 65,535
 - No Standard tcp Ports
 - No Unspoofed Incoming tcp Ports
    - `portspoof` project at GitHub
-   - back-hack the assholes and *black hats*
+   - not ultimately protecting
+   - a super **fun** pain in the ass
+   - back-hack the aholes & *black hats*
 - No Unfiltered Outgoing tcp Ports
    - IP Tables
-- No udp
+   - I don't ask, it don't tell
+- No Open udp Ports
 - No Unencrypted tcp Port Services
-   - nn ssh
+   - 21 ftp proxy
+   - 22 ssh
+   - 23 telnet proxy
    - 80 https
-   - nn sftp / ssh
-   - nn telnet proxied
-- No udp
-- No bragging or publshing *white papers*
+   - 115 sftp
+- No Open udp Ports
+- No bragging nor publshing *white papers*
 
 ### Habit
 
@@ -254,16 +276,17 @@ A few (dozen) *recommendations*:
 - Not The Same Bat Time
 - Not The Same Bat Place
 
-### Usage 3.0
+### Usage
 
->Layer 0
+>Layer 3.0
 
 - No Apps
 - No Apps Unproxied
 - No Websites
 - No Websites Not Over Tor
 - No Non-Onion Websites Over Tor
-- No Lazy Tor / Orbot usage - New ID, Country
+- No Lazy Tor / Orbot usage
+    - New ID & Country Often
 
 ### Data
 
@@ -282,6 +305,7 @@ A few (dozen) *recommendations*:
 - No Shared Data
 - No Saved Files
 - No Unmasked Deleted Files
+    - dump 1meg of junk in before
 
 ### Info
 
@@ -299,7 +323,9 @@ A few (dozen) *recommendations*:
       - see all of the above
    - Tell them **Q** sent you
       - **Not!**
-- No self-defense, even if you are a lawyer
+- No self-defense
+   - even if you are a lawyer
+   - 'specially if
    
 ### Subterfuge
 
@@ -310,19 +336,24 @@ A few (dozen) *recommendations*:
    - keep'in it real! clean!
    - keep moving, nothing to see here...
 - "Who *is* that man behind the curtain?"
-   - "His name is Zaphod, ruler... universe"
-   - "You should ignore him, gets into trouble"
-      - "If anyone asks, **42** wink |{ ;--}>"
+   - "His name is Zaphod, 
+      - ruler... universe"
+   - "You should ignore him
+      - gets into trouble"
+      - "If anyone asks, **42** 
+      - wink |{ ;--}>"
 - "Nice *goatie*"
    - "Thanks" 
 
 ## Word!
 
-> *"Be safe out there"*
+> *"Let's be careful out there"*
+> - "Barney Miller" 1980's
 
-> - *High-five* to all my *homies*
->    - straight *outa* Brooklyn! 
->       - **Not**!
+> *High-five* to all my *homies*
+>  - Straight *outa* Brooklyn! 
+>     - **Not**!
+>  - 1991
 
 ***
 
