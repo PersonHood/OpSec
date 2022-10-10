@@ -1,12 +1,14 @@
 # OpSec
 
-Download the latest `Release`.
-
->[zip](https://github.com/PersonHood/OpSec/archive/refs/tags/v2.1.zip)
-
 Day-to-day use of modern interconnected 
 devices reveals more about an individual 
-than may be understood. 
+than may be understood.  
+
+> µOPSEC
+
+Download the latest `Release`.
+
+>[zip](https://github.com/PersonHood/OpSec/archive/refs/tags/v2.2.zip)
 
 This collection of operational security information will 
 reduce the need to search for a needle 
