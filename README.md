@@ -2,7 +2,7 @@
 
 Download the latest `Release`.
 
->[zip](https://github.com/PersonHood/OpSec/archive/refs/tags/v2.0.zip)
+>[zip](https://github.com/PersonHood/OpSec/archive/refs/tags/v2.1.zip)
 
 Day-to-day use of modern interconnected 
 devices reveals more about an individual 
